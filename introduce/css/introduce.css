@@ -19,7 +19,7 @@ h2{
 .frm{
     border-radius: 6px;
     background-color: #555;
-    padding: 5px;
+    padding: 10px;
     color: white;
     
 
@@ -39,11 +39,11 @@ h2{
     display: block;
     margin: 0 auto;
     margin-top: 15px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 15px;
     background-color: chocolate;
     color: white;
     border-radius: 50px;
-    width: 70%;
+    width: 90%;
     text-transform: uppercase;
 }
