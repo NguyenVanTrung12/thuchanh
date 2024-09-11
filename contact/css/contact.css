@@ -1,0 +1,13 @@
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #555;
+    
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.row span{
+    font-weight: bold;
+}
