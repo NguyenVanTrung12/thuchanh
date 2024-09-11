@@ -1,0 +1,216 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nd1{
+    text-align: center;
+    margin: 40px 0px;
+    vertical-align: inherit;
+}
+.nd2{
+    vertical-align: inherit;
+    margin: 20px 0px;
+}
+.test-one {
+    top: 125px;
+    margin-left: 95px;
+    height: auto;
+    width: 200px;
+    /* left: -200px; */
+    /* top: 40px; */
+}
+.carousels {
+    background-color: #333333;
+   
+}
+.card {
+    margin-bottom: 50px;
+}
+.banner {
+    background-image: url('../img/banner.jpg');
+}
+.nd3 {
+    text-align: center;
+    margin: 70px;
+}
+/* Style the Image Used to Trigger the Modal */
+.img-trigger {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.img-trigger:hover {
+    opacity: 0.7;
+}
+
+/* Flexbox container for images */
+.image-grid {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 200px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+.dk {
+    background-image: url('../img/bannerr.jpg');
+}
+.img_card {
+    margin: 0px 30px;
+}
+@media (max-width: 576px) {
+    .image-grid img {
+        margin-bottom: 10px;
+    }
+}
+
+.img_card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.modal-content {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* General styling for the banner */
+
+/* Banner styling */
+.banner {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+.feedback-title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.feedback-title span {
+    color: #ed1c24;
+}
+
+/* Feedback item styling */
+.feedback-item {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feedback-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #ed1c24;
+}
+
+.feedback-text {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.feedback-author {
+    color: #ccc;
+    font-size: 0.875rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .feedback-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .feedback-text {
+        font-size: 0.9rem;
+    }
+
+    .feedback-author {
+        font-size: 0.8rem;
+    }
+}
