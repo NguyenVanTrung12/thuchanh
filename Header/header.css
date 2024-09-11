@@ -1,0 +1,95 @@
+.col1 {
+    text-align: center;
+}
+
+.col2 {
+    display: flex;
+}
+
+.icon {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.header {
+    background-color: #161616;
+}
+
+.col3 {
+    margin-top: 27px;
+}
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper input {
+    flex: 1;
+}
+
+.fa-search {
+    border: 1px solid #161616;
+    background-color: orange;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+.col4 {
+    padding: 20px 0;
+    font-size: 35px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    background-color: #161616;
+    padding: 20px 0;
+    font-weight: bolder;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #555555;
+    background-color: #ffffff;
+}
+
+.nav-link.active {
+    color: #555555;
+    background-color: #ffffff;
+}
+.nav-item {
+    margin: 0 40px; 
+}
+.nav-item.dropdown .dropdown-toggle {
+    color: #ffffff;
+    /* Màu chữ mặc định của liên kết dropdown */
+}
+.nav-item.dropdown .dropdown-toggle:hover {
+    color: #555555;
+    /* Màu chữ mặc định của liên kết dropdown */
+}
+/* Màu chữ của các mục trong menu dropdown khi không hover */
+.nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: #555555;
+    /* Màu chữ mặc định của các mục trong menu dropdown */
+}
+
+/* Màu chữ của các mục trong menu dropdown khi hover */
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #555555; /* Màu nền khi hover */
+    color: #ffffff; /* Màu chữ khi hover */
+}
+
