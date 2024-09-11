@@ -1,0 +1,50 @@
+.footer {
+    background-color: #54545c;
+}
+
+i {
+    color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.col1 {
+    text-align: center;
+}
+
+span {
+    margin-left: 20px;
+    color: white;
+}
+
+.col3 {
+    text-align: center;
+}
+.col4 {
+    margin-top: 30px;
+    color: white;
+}
+.icon {
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    font-size: 30px;
+}
+.policy-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy-column {
+    flex: 1;
+    padding: 0 10px; /* Điều chỉnh khoảng cách giữa các cột nếu cần */
+}
+
+.policy-column b {
+    display: block; /* Đảm bảo các thẻ <b> nằm trên các dòng riêng biệt */
+}
+
+
+
