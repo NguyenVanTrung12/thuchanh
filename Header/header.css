@@ -1,4 +1,71 @@
-.col1 {
+.container-fluid{
+    background-color: #161616;
+}
+.row img{
+    width: 50%;
+    text-align: center;
+}
+.container{
+    background-color: 54545c;
+}
+.row .logo{
+    text-align: center;
+
+}
+.row .search{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.row .icon{
+    color: #FE980F;
+    font-size: x-large;
+    margin-top: 50px;
+}
+.container .list ul{
+    width: 100%;
+    justify-content: space-between;
+}
+.container .list ul li{
+    text-transform: uppercase;
+}
+/* .show{
+    background-color: #54545c;
+} */
+/* .show li a{
+    color: white;
+} */
+.row .search input{
+    width: 90%;
+    padding: 6px;
+}
+/* .row >* {
+    width: 100%;
+} */
+
+@media (min-width: 576px) {
+    .navbar-expand-sm{
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-4{
+        margin-top: 30px;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-3{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+/* .col1 {
     text-align: center;
 }
 
@@ -76,20 +143,20 @@ a {
 .nav-item.dropdown .dropdown-toggle {
     color: #ffffff;
     /* Màu chữ mặc định của liên kết dropdown */
-}
-.nav-item.dropdown .dropdown-toggle:hover {
-    color: #555555;
+/* } */
+/* .nav-item.dropdown .dropdown-toggle:hover { */
+    /* color: #555555; */
     /* Màu chữ mặc định của liên kết dropdown */
-}
+/* } */
 /* Màu chữ của các mục trong menu dropdown khi không hover */
-.nav-item.dropdown .dropdown-menu .dropdown-item {
-    color: #555555;
+/* .nav-item.dropdown .dropdown-menu .dropdown-item { */
+    /* color: #555555; */
     /* Màu chữ mặc định của các mục trong menu dropdown */
-}
+/* } */
 
 /* Màu chữ của các mục trong menu dropdown khi hover */
-.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: #555555; /* Màu nền khi hover */
-    color: #ffffff; /* Màu chữ khi hover */
-}
-
+/* .nav-item.dropdown .dropdown-menu .dropdown-item:hover { */
+    /* background-color: #555555; Màu nền khi hover */
+    /* color: #ffffff; Màu chữ khi hover */
+/* } */
+ 
