@@ -17,13 +17,7 @@ body {
   margin-top: 200px;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 4rem;
-  width: 48rem;
-  border: 1px solid #54545c;
-  border-radius: 10%;
-}
+
 
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
@@ -127,4 +121,10 @@ body {
   font-weight: 300;
   margin: 2em 0;
 
+}
+.faq {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
