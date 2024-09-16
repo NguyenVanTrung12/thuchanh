@@ -3,7 +3,7 @@
 }
 
 .row img {
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 
@@ -36,18 +36,18 @@
     width: auto;
 }
 
-.container .list ul li a {
+ .list ul li a {
     color: white;
     font-weight: bold;
 }
 
-.container .list ul {
+ .list ul {
     margin-bottom: 30px;
     width: 100%;
     justify-content: space-between;
 }
 
-.container .list ul li {
+ .list ul li {
     text-transform: uppercase;
 }
 
