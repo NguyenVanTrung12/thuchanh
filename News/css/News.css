@@ -203,62 +203,54 @@
     margin-left: 20px;
     font-size: 13px !important;
   }
+.container-fluid .container .dangky-tintuc {
+  border-radius: 5px;
+  width: 100%;
+  margin: 20px 0px;
+  padding: 0px 10px;
+  background-color: #bd141a;
 
-  .container-fluid .container .dangky-tintuc {
-    border-radius: 5px;
-    width: 100%;
-    margin: 20px 0px;
-    padding: 0px 10px;
-    background-color: #bd141a;
-
-  }
-
-  .container-fluid .container .dangky-tintuc input {
-    border-radius: 10px;
-    border: none;
-    margin: 10px 10px;
-    width: 90%;
-    padding: 5px 5px;
-  }
-
-  .container-fluid .container .dangky-tintuc textarea {
-    margin: 10px 10px;
-    width: 90%;
-    padding: 5px 5px;
-    border-radius: 10px;
-    border: none;
-  }
-
-  .container-fluid .container .left {
-    margin: 10px auto;
-    border-radius: 10px;
-
-  }
-
-  .container-fluid .container .left img {
-    width: 100% !important;
-    margin: 10px auto;
-
-  }
-
-  .container-fluid .container .right {
-    margin: 10px auto;
-    border-radius: 10px;
-
-  }
-
-  .container-fluid .container .right img {
-    width: 100% !important;
-    margin: 10px auto;
-
-  }
-
-  .container-fluid .container .right .baiviet {
-    margin: 20px auto !important;
-    width: 100% !important;
+}
+.container-fluid .container .dangky-tintuc input {
+  border-radius: 10px;
+  border: none;
+  margin: 10px 10px;
+  width: 90%;
+  padding: 5px 5px;
+}
+.container-fluid .container .dangky-tintuc textarea {
+  margin: 10px 10px;
+  width: 90%;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: none;
+}
+.container-fluid .container .left  {
+  margin: 10px auto;
+  border-radius: 10px;
+ 
+}
+.container-fluid .container .left img  {
+  width: 100% !important;
+ margin: 10px auto;
+ 
+}
+.container-fluid .container .right  {
+  margin: 10px auto;
+  border-radius: 10px;
+ 
+}
+.container-fluid .container .right  img  {
+ width: 100% !important;
+ margin: 10px auto;
+ 
+}
+.container-fluid .container .right .baiviet  {
+  margin: 20px auto !important;
+  width: 100% !important;
 
 
-  }
+}
 
 }
 
@@ -268,24 +260,22 @@
     border-radius: 10px;
     width: 100% !important;
   }
-
   .container-fluid .container .left .tintuc2 .cart img {
     margin: 10px 0px;
     border-radius: 10px;
     width: 100% !important;
   }
 
-  .container-fluid .container .right {
+  .container-fluid .container .right  {
     margin: 20px 40px !important;
     width: 100%;
-
-
+  
+  
   }
-
-  .container-fluid .container .right .baiviet {
+  .container-fluid .container .right .baiviet  {
     margin: 20px auto !important;
     width: 50% !important;
-
-
+  
+  
   }
 }
