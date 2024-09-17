@@ -136,7 +136,7 @@
     background-image: url('../img/bannerr.jpg');
 }
 .img_card {
-    margin: 0px 30px;
+    margin: 10px 30px;
 }
 @media (max-width: 576px) {
     .image-grid img {
