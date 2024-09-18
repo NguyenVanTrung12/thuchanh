@@ -16,7 +16,8 @@
 
 
     <div class="container fade-in">
-        <h1 style="text-align: center;">About Us: <span style="color: red;">Venomous Snakes</span></h1>
+        
+        <h1 style="text-align: center;">About us:<span style="color: red;text-align: center;">Venomous Snakes</span></h1>
         <div class="row">
             <div class="col-12 col-md-6 slide-in-image">
                 <div class="">
@@ -27,8 +28,8 @@
             <div class="col-12 col-md-6 slide-in-text">
 
                 <div class="car">
-                    <p class="card-text"><b>About us</b></p>
-                    <h3 class="card-title"><b>Name:</b> Nguyen Van Trung</h3>
+                    
+                    <h3 class="card-title" style="margin-left: 100px; color: red;">Nguyen Van Trung</h3>
                     <p class="card-text"><b>Address:</b> Phu Kieu, Kieu Mai, Bac Tu Liem, Ha Noi</p>
                     <p class="card-text"><b>Email:</b> vantrung1242005@gmail.com</p>
                     <p class="card-text"><b>Phone Number:</b> 0862144338</p>
@@ -42,8 +43,8 @@
         <div class="row">
             <div class="col-12 col-md-6 slide-in-text">
                 <div class="car">
-                    <p><b>About us</b></p>
-                    <h3 class="card-title"><b>Name:</b> Tran Thi Bach Thao</h3>
+  
+                    <h3 class="card-title"style="margin-left: 100px; color: red;">Tran Thi Bach Thao</h3>
                     <p class="card-text"><b>Address:</b> Nguyen Khe, Dong Anh, Ha Noi</p>
                     <p class="card-text"><b>Email:</b> bachthao111205@gmail.com</p>
                     <p class="card-text"><b>Phone Number:</b> 0327985042</p>
@@ -68,8 +69,8 @@
             </div>
             <div class="col-12 col-md-6 slide-in-text">
                 <div class="car">
-                    <p class="card-text"><b>About us</b></p>
-                    <h3 class="card-title"><b>Name:</b> Tran Tung Duong</h3>
+                    
+                    <h3 class="card-title"style="margin-left: 100px; color: red;"> Tran Tung Duong</h3>
                     <p class="card-text"><b>Address:</b> Hao Nam, Dong Da, Ha Noi</p>
                     <p class="card-text"><b>Email:</b> duongdeptrai317@gmail.com</p>
                     <p class="card-text"><b>Phone Number:</b> 0343075987</p>
@@ -82,8 +83,8 @@
         <div class="row">
             <div class="col-12 col-md-6 slide-in-text">
                 <div class="car">
-                    <p><b>About us</b></p>
-                    <h3 class="card-title"><b>Name:</b> Duong Thi Hong Nhung</h3>
+  
+                    <h3 class="card-title"style="margin-left: 100px; color: red;"> Duong Thi Hong Nhung</h3>
                     <p class="card-text"><b>Address:</b> Tan My, MyDinh1, Nam Tu Liem, Ha Noi</p>
                     <p class="card-text"><b>Email:</b> nhung1379nvc@gmail.com</p>
                     <p class="card-text"><b>Phone Number:</b> 0355612890</p>
@@ -108,8 +109,8 @@
             </div>
             <div class="col-12 col-md-6 slide-in-text">
                 <div class="car">
-                    <p class="card-text"><b>About us</b></p>
-                    <h3 class="card-title"><b>Name:</b> Nguyen Tuyen Canh</h3>
+                    
+                    <h3 class="card-title"style="margin-left: 100px; color: red;"> Nguyen Tuyen Canh</h3>
                     <p class="card-text"><b>Address:</b> Tran Cung, Bac Tu Liem, Ha Noi</p>
                     <p class="card-text"><b>Email:</b> canh19012k5@gmail.com</p>
                     <p class="card-text"><b>Phone Number:</b> 0379255680</p>
@@ -121,27 +122,53 @@
 
 <script>
 
-    document.addEventListener('DOMContentLoaded', function () {
-        const elements = document.querySelectorAll('.slide-in-image, .slide-in-text');
-        elements.forEach((element, index) => {
-            // Áp dụng hiệu ứng cho cả ảnh và chữ
-            if (index % 2 === 0) {
-                element.classList.add('slide-in-left'); // Chẵn: hiệu ứng từ trái sang
+document.addEventListener('DOMContentLoaded', function () {
+    const elements = document.querySelectorAll('.slide-in-image, .slide-in-text');
+    
+    // Áp dụng hiệu ứng cho cả ảnh và chữ
+    elements.forEach((element, index) => {
+        if (index % 1 === 0) {
+            element.classList.add('slide-in-left'); // Chẵn: hiệu ứng từ trái sang
+        } else {
+            element.classList.add('slide-in-right'); // Lẻ: hiệu ứng từ phải sang
+        }
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
             } else {
-                element.classList.add('slide-in-right'); // Lẻ: hiệu ứng từ phải sang
+                entry.target.classList.remove('show'); // Xóa lớp khi không còn trong viewport
             }
         });
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('show');
-                }
-            });
-        });
-        elements.forEach(element => {
-            observer.observe(element);
-        });
     });
+
+    elements.forEach(element => {
+        observer.observe(element);
+    });
+});
+// document.addEventListener('DOMContentLoaded', function () {
+//         const elements = document.querySelectorAll('.slide-in-image, .slide-in-text');
+//         elements.forEach((element, index) => {
+//             // Áp dụng hiệu ứng cho cả ảnh và chữ
+//             if (index % 2 === 0) {
+//                 element.classList.add('slide-in-left'); // Chẵn: hiệu ứng từ trái sang
+//             } else {
+//                 element.classList.add('slide-in-right'); // Lẻ: hiệu ứng từ phải sang
+//             }
+//         });
+//         const observer = new IntersectionObserver((entries) => {
+//             entries.forEach(entry => {
+//                 if (entry.isIntersecting) {
+//                     entry.target.classList.add('show');
+//                 }
+//             });
+//         });
+//         elements.forEach(element => {
+//             observer.observe(element);
+//         });
+//     });
 </script>
 
 </html>
