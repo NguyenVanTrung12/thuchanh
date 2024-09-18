@@ -1,0 +1,303 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "ABDOMINAL CHAIR CHAIR"
+        },
+        {
+            "id": 2,
+            "name": "DUMBELL"
+        },
+        {
+            "id": 3,
+            "name": "SINGLE BAR/ DOUBLE BAR"
+        },
+        {
+            "id": 4,
+            "name": "WEIGHR FRAME"
+        },
+        {
+            "id": 5,
+            "name": "WEIGHRLIFTING CHAIR"
+        },
+        {
+            "id": 6,
+            "name": "MASSAGE MACHINE"
+        },
+        {
+            "id": 7,
+            "name": "MASSAGE CHAIR"
+        },
+        {
+            "id": 8,
+            "name": "GYM CCESSORIES"
+        }
+    ],
+    "equipment": [
+        {
+            "id": 1,
+            "imageUrl": "img/tb1.jpg"
+        },
+        {
+            "id": 2,
+            "imageUrl": "img/tb2.jpg"
+        },
+        {
+            "id": 3,
+            "imageUrl": "img/tb3.jpg"
+        },
+        {
+            "id": 4,
+            "imageUrl": "img/tb4.jpg"
+        },
+        {
+             "id":5,
+            "imageUrl":"img/tb5.jpg"
+        },
+        {
+            "id": 6,
+            "imageUrl": "img/tb6.jpg"
+        },
+        {
+            "id": 7,
+            "imageUrl": "img/tb7.jpg"
+        },
+        {
+            "id": 8,
+            "imageUrl": "img/tb8.jpg"
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "name": "Hoist CF3162 American brand multi-function adjustable chair [Super Flat/Decline Bench]",
+            "price": 43290000,
+            "imageUrl": "img/CF-3162-BLACK-UPH-PLATINUM-FRM.webp",
+            "categoryId": 1
+        },
+        {
+            "id": 2,
+            "name": "Hoist CF3264 American brand Ab Bench [Ab Bench] [Super Flat/Decline Bench]",
+            "price": 43290000,
+            "imageUrl": "img/R (1).jfif",
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "name": "  Hoist HF5264 Abdominal exercise chair [Adjust Ab Bench] American brand [Super Flat/Decline Bench]",
+            "price": 21888000,
+            "imageUrl": "img/tapbung",
+            "categoryId": 1
+        },
+        {
+            "id": 4,
+            "name": " The main function of the Hoist RS1601 abdominal exercise machine is to support comprehensive abdominal muscle training.",
+            "price": 207936000,
+            "imageUrl": "img/tapbung5",
+            "categoryId": 1
+        },
+        {
+            "id": 5,
+            "name": "  Hoist RPL5601 American Brand Abdominal Exercise Machine [Abdominals]",
+            "price": 94508882,
+            "imageUrl": "img/Hoist-RPL-5601-Abdominal-Crunch-1536x1536.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 6,
+            "name": "  Hoist CL3601 American brand abdominal exercise machine [Abdominals]",
+            "price": 175060224,
+            "imageUrl": "img/R (1).jfif",
+            "categoryId": 1
+        },
+        {
+            "id": 7,
+            "name": "   Joiner JD1100 high-quality polygonal dumbbells",
+            "price": 470000,
+            "imageUrl": "img/Tadon",
+            "categoryId": 2
+        },
+        {
+            "id": 8,
+            "name": "Rubber-coated dumbbells brand Iron Bull red PT1150",
+            "price": 375000,
+            "imageUrl": "img/ta40",
+            "categoryId": 2
+        },
+        {
+            "id": 9,
+            "name": "Multifunctional Dumbbell Set 15kg PT1131",
+            "price": 2220000,
+            "imageUrl": "img/tasau",
+            "categoryId": 2
+        },
+        {
+            "id": 10,
+            "name": "Joiner JD1140 women's dumbbells",
+            "price": 141000,
+            "imageUrl": "img/tamau",
+            "categoryId": 2
+        },
+        {
+            "id": 11,
+            "name": " Multi-purpose dumbbell set 20kg PT1124",
+            "price": 4776000,
+            "imageUrl": "img/Botay",
+            "categoryId": 2
+        },
+        {
+            "id": 12,
+            "name": " 18kg Adjustable Kettlebell PT1311",
+            "price": 2350000,
+            "imageUrl": "img/tavang",
+            "categoryId": 2
+        },
+        {
+            "id": 13,
+            "name": "Hoist CF3252 American brand abdominal/rear arm kick bench [Vertical Knee Raise/Dip]",
+            "price": 34630000,
+            "imageUrl": "img/xadon",
+            "categoryId": 3
+        },
+        {
+            "id": 14,
+            "name": " Impulse IT9520 Power assisted pull-up machine [ Weight Assisted Chin/Dip Combo]",
+            "price": 39650000,
+            "imageUrl": "img/gym-chest",
+            "categoryId": 3
+        },
+        {
+            "id": 15,
+            "name": "  Hoist CF3962A American brand single-bar and double-bar abdominal kicking training frame [Fitness Tree]",
+            "price": 56296374,
+            "imageUrl": "img/khungtapda",
+            "categoryId": 3
+        },
+        {
+            "id": 16,
+            "name": " Joiner JD6610 multi-function door-mounted pull-up bar",
+            "price": 456000,
+            "imageUrl": "img/xadongancua",
+            "categoryId": 3
+        },
+        {
+            "id": 17,
+            "name": " Multi-purpose wall-mounted pull-up bar PT5021",
+            "price": 780000,
+            "imageUrl": "img/xadongancua",
+            "categoryId": 3
+        },
+        {
+            "id": 18,
+            "name": " Hoist RS1700 Multi-function Assisted Double Bar Training Machine [Chin/Dip Assist]",
+            "price": 275760000,
+            "imageUrl": "img/kethop",
+            "categoryId": 3
+        },
+        {
+            "id": 19,
+            "name": "  Hoist CF3359 American brand weightlifting squat machine [Power Squat]",
+            "price": 121303734,
+            "imageUrl": "img/kethop",
+            "categoryId": 4
+        },
+        {
+            "id": 20,
+            "name": "   Hoist Mi7 Smith Functional Training multi-purpose weightlifting rig, American brand",
+            "price": 353928960,
+            "imageUrl": "img/mayghanhtakethop",
+            "categoryId": 4
+        },
+        {
+            "id": 21,
+            "name": " Impulse ES2100 Multi-function weight training rig [Dual Adjusttable Pulley]",
+            "price": 56500000,
+            "imageUrl": "img/dantapdanang",
+            "categoryId": 4
+        },
+        {
+            "id": 22,
+            "name": "  Hoist CF3550 American brand front arm chair [Preacher Curl]",
+            "price": 43294902,
+            "imageUrl": "img/taptayne.jpg",
+            "categoryId": 5
+        },
+        {
+            "id": 23,
+            "name": "  Hoist CF3860 Shoulder bench with American brand bar [Military Press]",
+            "price": 86633142,
+            "imageUrl": "img/taptayne.jpg",
+            "categoryId": 5
+        },
+        {
+            "id": 24,
+            "name": "  PT FITNESS PT5031 multi-function weightlifting chair",
+            "price": 8382000,
+            "imageUrl": "img/taptataydon.jpg",
+            "categoryId": 5
+        },
+        {
+            "id": 25,
+            "name": "  Drax Pro neck and shoulder massage machine - Integrates EMS technology",
+            "price": 1100000,
+            "imageUrl": "img/maymatxaco",
+            "categoryId": 6
+        },
+        {
+            "id": 26,
+            "name": "   Drax Eyes Plus eye relaxation massage machine - Anti-aging",
+            "price": 1500000,
+            "imageUrl": "img/maxamat.jpg",
+            "categoryId": 6
+        },
+        {
+            "id": 27,
+            "name": "   Drax Laser-S handheld massage gun",
+            "price": 1500000,
+            "imageUrl": "img/maymatxatoanthan.jpg",
+            "categoryId": 6
+        },
+        {
+            "id": 28,
+            "name": "   Akira Massage Chair – A296",
+            "price": 97680000,
+            "imageUrl": "img/ghematxa",
+            "categoryId": 7
+        },
+        {
+            "id": 29,
+            "name": "   Akira Massage Chair – A288",
+            "price": 86900000,
+            "imageUrl": "img/ghematxa1",
+            "categoryId": 7
+        },
+        {
+            "id": 30,
+            "name": "   Akira Massage Chair Akira AR-Z6",
+            "price": 32680000,
+            "imageUrl": "img/ghemaxa2.jpg",
+            "categoryId": 7
+        },
+        {
+            "id": 31,
+            "name": "Arm Blaster supports front arm training PT6124",
+            "price": 648000,
+            "imageUrl": "img/đaieotay",
+            "categoryId": 8
+        },
+        {
+            "id": 32,
+            "name": " Gym and sports headband PT6508 Material: Cotton, Nylon",
+            "price": 81600,
+            "imageUrl": "img/bang-do-tap-gym-the-thao-pt6508.jpg",
+            "categoryId": 8
+        },
+        {
+            "id": 33,
+            "name": " Full body resistance band PT6206",
+            "price": 95000,
+            "imageUrl": "img/daykhangluc",
+            "categoryId": 8
+        }
+    ]
+}
