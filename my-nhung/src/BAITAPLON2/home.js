@@ -1,4 +1,4 @@
-import '../style/home.css';
+ import '../Css/home.css';
 export default function Home() {
     return (
         <section>
@@ -82,7 +82,7 @@ export default function Home() {
                     <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="nd1">
-                                <h2 style={{ color: 'white' }}><span style="color: #ed1c24">MEMBER </span> RESULTS</h2>
+                                <h2 style={{ color: 'white' }}><span style={{color: '#ed1c24'}}>MEMBER </span> RESULTS</h2>
                             </div>
                         </div>
                     </div>

@@ -1,8 +1,8 @@
-import '../style/footer.css';
+import '../Css/footer.css';
 
 export default function Footer() {
    return (
-      <div className="container-fluid footer">
+      <div className="container-fluid footer" style={{marginTop:100}}>
       <div>
           <div className="row">
               <div className="col-sm-12 col-md-6 col-lg-3 col1">
