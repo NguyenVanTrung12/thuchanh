@@ -36,9 +36,9 @@ hr{
     color: white;
 }
 .search i{
-    background-color: #FE980F;
+    margin-left: -40px;
+    color: #161616;
     padding: 11px;
-    color: white;
 }
 .icon button{
     margin-top: 50px;

@@ -15,7 +15,7 @@ export default function Header() {
                             <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 search">
 
                                 <input type="text" placeholder="Search..."/>
-                                <i class="fa fa-search"></i>
+                                <button className='fa fa-search'></button>
                             </div>
                             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 icon">
                                 <button type="submit">Register Memberships</button>
