@@ -393,48 +393,7 @@ export default function Home() {
 
 
 
-            {/* Phần chỉnh sửa */}
-
-
-
-
-
-
-            {/* 
-            <div className="container-fluid banner">
-                <div className="container text-center">
-                    <h2 className="feedback-title">CUSTOMER <span>FEEDBACK</span></h2>
-                    <div className="row">
-                        <div className="col-12 col-sm-6 col-md-4">
-                            <div className="feedback-item">
-                                <img src="img/cus1.jpg" className="feedback-img" alt="Customer 1" />
-                                <p className="feedback-text">Each workout with the coach burned so many calories... I became
-                                    "addicted" to this sport.</p>
-                                <p className="feedback-author"><b>Tran Lan Ngoc / Hotel Manager</b></p>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-4">
-                            <div className="feedback-item">
-                                <img src="img/cus2.jpg" className="feedback-img" alt="Customer 2" />
-                                <p className="feedback-text">Now my previous belly fat has become a little smaller. I really thank
-                                    the coaches...</p>
-                                <p className="feedback-author"><b>Tran Lan Ngoc / Teacher</b></p>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-4">
-                            <div className="feedback-item">
-                                <img src="img/cus3.jpg" className="feedback-img" alt="Customer 3" />
-                                <p className="feedback-text">Each workout with the coach burned so many calories... I became
-                                    "addicted" to this sport.</p>
-                                <p className="feedback-author"><b>Tran Lan Ngoc / Hotel Manager</b></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
-
-
+           
 
 
 
