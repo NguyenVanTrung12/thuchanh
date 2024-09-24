@@ -5,9 +5,9 @@ import data from '../data.json';
 import { useEffect, useState } from 'react';
 import { useForm } from "react-hook-form";
 
-export default function Product() {
-    var { register, handleSubmit } = useForm();
-  
+export default function Product(props) {
+
+
     const menu1 = data.categories;
     const menu2 = data.Gymaccessories;
     const productsAll = data.product;
@@ -21,6 +21,12 @@ export default function Product() {
     }, [products]);
 
 
+    var { register, handleSubmit } = useForm();
+    const { limit, title, cat } = props;
+    var [allproduct, setAllproduct] = useState([]);
+    var [productt, setProductt] = useState([]);
+
+
     function onsearch(data) {
 
 
@@ -32,9 +38,29 @@ export default function Product() {
 
 
 
+    function onOrder(form) {
+        try {
+            if (!form.order || form.order === "#") {
+                alert("Vui lòng chọn cách sắp xếp.");
+                return;
+            }
+            const sortedData = [...productsAll].sort((a, b) => {
+                return form.order === 'asc' ? a.price - b.price : b.price - a.price;
+            });
+            const prods = sortedData.slice(1, limit);
+            setProducts(prods);
+        } catch (error) {
+            console.error('Failed to fetch products:', error);
+            alert('Có lỗi xảy ra khi lấy sản phẩm.');
+        }
+    }
+
+
+
+
     return (
         <section style={{ marginTop: 50 }}>
-            <div class="container" style={{margin:'40px auto'}}>
+            <div class="container" style={{ margin: '40px auto' }}>
                 <h2 style={{ textAlign: "center", backgroundColor: '#E5A87B', color: ' aliceblue', padding: 20, borderRadius: 30 }}>PRODUCTS FEATURE</h2>
                 <div>
                     <br />
@@ -55,6 +81,19 @@ export default function Product() {
 
 
                         </div>
+                        <form action="#" className="sidebar-search" method="post" onSubmit={handleSubmit(onOrder)}>
+                            <div className="form-group">
+                                <select {...register('order')} id='input' className="form-control">
+                                    <option value="#">Choose by price</option>
+                                    <option value="asc">Gradually increase with price</option>
+                                    <option value="desc">
+                                        Discount according to price</option>
+                                </select>
+                                <button className="submit" type="submit">
+                                    <i className='fas fa-search'></i>
+                                </button>
+                            </div>
+                        </form>
                         <div class="left-sidebar">
                             <div class="brands_products">
                                 <h2>Categories</h2>
@@ -101,32 +140,37 @@ export default function Product() {
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-9">
                         <div class="right-slidebar">
                             <div class="features_items">
-                                <h2 class="title text-center"></h2>
+                                <div className='container'>
 
-                                {products && Array.isArray(products) ? (
-                                    products.map(item => (
-                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3" style={{ float: "left", margin: 40 }}>
-                                            <div class="product-image-wrapper">
-                                                <div class="single-products">
-                                                    <div class="productinfo text-center">
-                                                        <Link to={`/ProductDetails/${item.id}`} className="image"  style={{textDecoration:'none'}}><img src={item.imageUrl} alt="Image" style={{ width: '100%' }} /></Link>
-                                                        <Link to={`/ProductDetails/${item.id}`} style={{textDecoration:'none'}} > <h2>{'$' + item.price + '.00'}</h2></Link> 
-                                                       <Link to={`/ProductDetails/${item.id}`} style={{textDecoration:'none'}}><p>{item.name.slice(0, 55)+'...'}</p> </Link>
-                                                            
-                                                    </div>
-                                                    <div class="product-overlay" >
-                                                        <div class="overlay-content" >
-                                                            <a href="#" class="btn btn-default add-to-cart">Add to cart</a>
+                                    <div class="row">
+                                        {products && Array.isArray(products) ? (
+                                            products.map(item => (
+
+
+                                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" >
+                                                    <div class="product-image-wrapper">
+                                                        <div class="single-products">
+                                                            <div class="productinfo text-center">
+                                                                <Link to={`/ProductDetails/${item.id}`} className="image" style={{ textDecoration: 'none' }}><img src={item.imageUrl} alt="Image" style={{ width: '100%' }} /></Link>
+                                                                <Link to={`/ProductDetails/${item.id}`} style={{ textDecoration: 'none' }} > <h2>{'$' + item.price + '.00'}</h2></Link>
+                                                                <Link to={`/ProductDetails/${item.id}`} style={{ textDecoration: 'none' }}><p>{item.name.slice(0, 55) + '...'}</p> </Link>
+
+                                                            </div>
+                                                            <div class="product-overlay" >
+                                                                <div class="overlay-content" >
+                                                                    <a href="#" class="btn btn-default add-to-cart">Add to cart</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    ))
-                                ) : (
-                                    <p>No items available</p> // Hiển thị thông báo nếu không có dữ liệu
-                                )}
 
+                                            ))
+                                        ) : (
+                                            <p>No items available</p> // Hiển thị thông báo nếu không có dữ liệu
+                                        )}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
