@@ -44,58 +44,58 @@ export default function Home() {
             </div>
 
             {/* Section 1 */}
-      <div className="container n">
-        <div className="row align-items-center">
-          <div className="col-xs-12 col-sm-6">
-            <div className="nd2">
-              <h4 className="card-title">APEX FITNESS AND THE DEVELOPMENT PATH</h4>
-              <p className="card-text">
-                Apex fitness is a professional organization, a pioneer in serving and bringing health and beauty to active people to thereby improve the quality of life.
-              </p>
-              <p className="card-text">
-                We understand the pressures and fatigue of your work and life. And more than ever, we also understand the desire to have good health and a beautiful body. Therefore, at Apex fitness, we always strive to bring the best quality KickFitness and HIIT training programs. It is the most effective and healthy way to regain vitality, a balanced body, improve health problems such as back, shoulder, and bone pain due to sitting too much, lack of exercise, and at the same time increase flexible reflexes and self-defense.
-              </p>
-              <button className="btn btn-danger">SEE MORE</button>
+            <div className="container n">
+                <div className="row align-items-center">
+                    <div className="col-xs-12 col-sm-6">
+                        <div className="nd2">
+                            <h4 className="card-title">APEX FITNESS AND THE DEVELOPMENT PATH</h4>
+                            <p className="card-text">
+                                Apex fitness is a professional organization, a pioneer in serving and bringing health and beauty to active people to thereby improve the quality of life.
+                            </p>
+                            <p className="card-text">
+                                We understand the pressures and fatigue of your work and life. And more than ever, we also understand the desire to have good health and a beautiful body. Therefore, at Apex fitness, we always strive to bring the best quality KickFitness and HIIT training programs. It is the most effective and healthy way to regain vitality, a balanced body, improve health problems such as back, shoulder, and bone pain due to sitting too much, lack of exercise, and at the same time increase flexible reflexes and self-defense.
+                            </p>
+                            <button className="btn btn-danger">SEE MORE</button>
+                        </div>
+                    </div>
+
+                    <div className="col-xs-12 col-sm-6">
+                        <img
+                            src="/img/gioi-thieu-gym-768x488.jpg"
+                            alt="Introduction to ApexFitness Gym"
+                            className="img-fluid rounded"
+                            style={{ margin: '20px 0px' }}
+                        />
+                    </div>
+                </div>
             </div>
-          </div>
 
-          <div className="col-xs-12 col-sm-6">
-            <img
-              src="/img/gioi-thieu-gym-768x488.jpg"
-              alt="Introduction to ApexFitness Gym"
-              className="img-fluid rounded" 
-              style={{ margin: '20px 0px' }}
-            />
-          </div>
-        </div>
-      </div>
+            {/* Section 2 */}
+            <div className="container n">
+                <div className="row align-items-center">
+                    <div className="col-xs-12 col-sm-6">
+                        <img
+                            src="img/huanluenviencanhan2.jpg"
+                            alt="Coach Team"
+                            className="img-fluid rounded"
+                            style={{ margin: '20px 0px' }}
+                        />
+                    </div>
 
-      {/* Section 2 */}
-      <div className="container n">
-        <div className="row align-items-center">
-          <div className="col-xs-12 col-sm-6">
-            <img
-              src="img/huanluenviencanhan2.jpg"
-              alt="Coach Team"
-              className="img-fluid rounded" 
-              style={{ margin: '20px 0px' }}
-            />
-          </div>
-
-          <div className="col-xs-12 col-sm-6">
-            <div className="nd2">
-              <h4 className="card-title">COACH, CORE TEAM</h4>
-              <p className="card-text">
-                At Apex fitness, we build our success on high quality professional products and customer service based on the motto: Close - Hands-on - Dedicated.
-              </p>
-              <p className="card-text">
-                The Trainers are former professional athletes who are thoroughly trained and have deep experience in sports science, bringing the best results to students. Trainers are direct representatives of Apex fitness, providing high quality services to customers, so they always have the mindset of a service provider, understand the high and strict requirements of the service industry to always strive to satisfy each student in each training session.
-              </p>
-              <button className="btn btn-danger">SEE MORE</button>
+                    <div className="col-xs-12 col-sm-6">
+                        <div className="nd2">
+                            <h4 className="card-title">COACH, CORE TEAM</h4>
+                            <p className="card-text">
+                                At Apex fitness, we build our success on high quality professional products and customer service based on the motto: Close - Hands-on - Dedicated.
+                            </p>
+                            <p className="card-text">
+                                The Trainers are former professional athletes who are thoroughly trained and have deep experience in sports science, bringing the best results to students. Trainers are direct representatives of Apex fitness, providing high quality services to customers, so they always have the mindset of a service provider, understand the high and strict requirements of the service industry to always strive to satisfy each student in each training session.
+                            </p>
+                            <button className="btn btn-danger">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
 
 
 
@@ -501,6 +501,77 @@ export default function Home() {
                 </div>
             </div>
 
+
+
+
+            <section className="class-schedule-area section-padding parallax" id="schedule">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-8 col-md-offset-2 text-center">
+                            {/* Section title */}
+                            <div className="gym-title">
+                                <h2>
+                                    class <span>schedule</span>
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="schedule-table-area">
+                                <table className="schedule-table table-responsive">
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <div className="sched-days">#</div>
+                                            </th>
+                                            {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'].map((day) => (
+                                                <th className="rt-col-title" key={day}>
+                                                    <div className="sched-days">{day}</div>
+                                                </th>
+                                            ))}
+                                        </tr>
+                                        {[
+                                            { time: '09:00 am', sessions: ['swimming', '', 'Yoga', '', 'Meditation', '', 'Karate'] },
+                                            { time: '11:00 am', sessions: ['', 'Running', '', 'Body Building', '', 'Yoga', ''] },
+                                            { time: '01:00 pm', sessions: ['Yoga', '', 'swimming', '', 'Karate', '', 'Running'] },
+                                            { time: '03:00 pm', sessions: ['', 'swimming', '', 'Running', '', 'Meditation', ''] },
+                                            { time: '05:00 pm', sessions: ['Meditation', '', 'Karate', '', 'Body Building', '', 'swimming'] },
+                                            { time: '07:00 pm', sessions: ['', 'Body Building', '', 'swimming', '', 'Yoga', ''] }
+                                        ].map((row, index) => (
+                                            <tr key={index}>
+                                                <th className="sced-time-table">{row.time}</th>
+                                                {row.sessions.map((session, i) => (
+                                                    <td key={i}>
+                                                        {session && (
+                                                            <div className="sched-tit-tim">
+                                                                <span className="sched-title">{session}</span>
+                                                                <span className="sched-time">
+                                                                    {row.time} - {row.time.replace('am', 'pm')}
+                                                                </span>
+                                                            </div>
+                                                        )}
+                                                    </td>
+                                                ))}
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
+
+
+
+
+
+
     );
 }                

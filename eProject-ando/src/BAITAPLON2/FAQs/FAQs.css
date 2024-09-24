@@ -123,6 +123,8 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .faq h2{
+  font-weight: bold;
+  color: red;
   width: 100%;
   text-align: center;
 }

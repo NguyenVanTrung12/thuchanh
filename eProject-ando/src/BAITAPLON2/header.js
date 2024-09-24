@@ -47,20 +47,20 @@ export default function Header({ name, ...props }) {
                             </li>
                            
                             <li class="nav-item dropdown">
-                                <div class="dropdown">
-                                    <button class="dropbtn">links</button>
-                                    <div class="dropdown-content">
-                                        <a href="#">Cycling</a>
-                                        <a href="#">Swimming</a>
-                                        <a href="#">Sports & Fitness</a>
-                                        <a href="#">Group Exercise</a>
-                                        <a href="#">Membership</a>
-                                        <a href="#">Salon & Spa</a>
-                                    </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">links</button>
+                                <div class="dropdown-content">
+                                    <Link to="/NewsBicycle">Cycling</Link>
+                                    <Link to="/NewsSwimming">Swimming</Link>
+                                    <Link to="/NewsFitness">Sports & Fitness</Link>
+                                    <Link to="/NewGroupFitnes">Group Exercise</Link>
+                                    <Link to="/NewFood">Membership</Link>
+                                    <Link to="/NewSalos">Salon & Spa</Link>
                                 </div>
-                            </li>
+                            </div>
+                        </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Introduce</a>
+                            <Link class="nav-link" to="/introduce">Introduce</Link>
                             </li>
                             <li class="nav-item dropdown">
                                 <div class="dropdown" style={{ marginTop: '10px' }}>
@@ -79,7 +79,7 @@ export default function Header({ name, ...props }) {
                                 <Link class="nav-link" to="/about">About us</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                            <Link class="nav-link" to="/contact">Contact</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link" to="/FAQs">FAQs</Link>

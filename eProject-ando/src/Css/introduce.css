@@ -1,0 +1,191 @@
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+h4 {
+    padding: 10px 0px;
+    font-weight: 700;
+    color: #bd141a;
+}
+
+h2 {
+    color: #555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.news {
+    border: 1px solid #ddd;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.news .row {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.frm {
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px 0px;
+    color: white;
+    background-color: #bd141a;
+
+
+}
+
+.frm textarea {
+    margin-top: 10px;
+    width: 90%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+}
+
+.frm input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.frm button {
+    margin: 10px 10px;
+    width: 90%;
+    background-color: #FF9800;
+    padding: 5px 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+#img {
+    width: 80%;
+}
+
+@media screen and (min-width: 700px) and (max-width:1400px) {
+    @media screen and (min-width: 700px) and (max-width:1400px) {
+
+        .container-fluid .container .right .news {
+
+            width: 100% !important;
+        }
+
+        .container-fluid .container .right .news .row p {
+            font-size: 13px !important;
+        }
+
+        .container-fluid .container .right .news .row img {
+            border-radius: 50%;
+            width: 50px;
+
+        }
+    }
+
+    .container-fluid .container .right .news .row p {
+        margin-left: 20px;
+        font-size: 13px !important;
+    }
+
+    .container-fluid .container .frm {
+        border-radius: 5px;
+        width: 100%;
+        margin: 20px 0px;
+        padding: 0px 10px;
+        background-color: #bd141a;
+
+    }
+
+    .container-fluid .container .frm input {
+        border-radius: 10px;
+        border: none;
+        margin: 10px 10px;
+        width: 90%;
+        padding: 5px 5px;
+    }
+
+    .container-fluid .container .frm textarea {
+        margin: 10px 10px;
+        width: 90%;
+        padding: 5px 5px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .container-fluid .container .left {
+        margin: 10px auto;
+        border-radius: 10px;
+
+    }
+
+    .container-fluid .container .left img {
+        width: 100% !important;
+        margin: 10px auto;
+
+    }
+
+    .container-fluid .container .right {
+        margin: 10px auto;
+        border-radius: 10px;
+
+    }
+
+    .container-fluid .container .right img {
+        width: 100% !important;
+        margin: 10px auto;
+
+    }
+
+    .container-fluid .container .right .news {
+        margin: 20px auto !important;
+        width: 100% !important;
+    }
+
+
+}
+
+@media screen and (min-width: 375px) and (max-width:932px) {
+    .container-fluid .container .left .row img {
+        margin: 10px 0px;
+        border-radius: 10px;
+        width: 100% !important;
+    }
+
+    .container-fluid .container .left .row img {
+        margin: 10px 0px;
+        border-radius: 10px;
+        width: 100% !important;
+    }
+
+    .container-fluid .container .right .news {
+        margin: 20px 40px !important;
+        width: 100%;
+
+
+    }
+
+    .container-fluid .container .right .news {
+        margin: 20px auto !important;
+
+
+    }
+}

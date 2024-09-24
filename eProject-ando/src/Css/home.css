@@ -411,3 +411,94 @@ button.btn.btn-light {
     }
   }
   
+
+
+
+
+
+
+  .class-schedule-area {
+    background: rgba(0, 0, 0, 0) url("file:///D:/N%C3%A9n/gym/lovesome.biz/tf-template/fitness/img/schedule-bg.jpg") no-repeat scroll center top / cover;
+    position: relative;
+    color: #fff;
+}
+
+.class-schedule-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.class-schedule-area .gym-title h2,
+.progress-area .gym-title h2 {
+    color: #fff;
+}
+.gym-title h2 {
+    color: #1a1a1a;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.gym-title {
+    text-align: center;
+}
+.gym-title h2 span {
+    
+    color: #FB5B21;
+}
+
+.gym-title h2 b {
+    color: #777;
+    letter-spacing: 35px;
+}
+
+.gym-title p {
+    padding: 40px 0 45px;
+    margin: 0;
+}
+.schedule-table-area {
+    margin: 30px 0;
+    overflow: auto;
+    position: relative;
+}
+
+.schedule-table {
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+}
+.sched-days {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #fff;
+    border-top: 0;
+}
+.sced-time-table {
+    background-color: #1a1a1a;
+    text-align: center;
+    border: 1px solid #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sched-tit-tim {
+    background-color: #FB5B21;
+    color: #fff;
+    text-align: center;
+    padding: 20px 5px;
+    border: 1px solid #fff;
+}
+.sched-title {
+    display: block;
+}
+.sched-time {
+    display: block;
+    margin-top: 7px;
+}

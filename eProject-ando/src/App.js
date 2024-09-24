@@ -15,6 +15,8 @@ import Register from './BAITAPLON2/Register/form';
 import FAQs from './BAITAPLON2/FAQs/FAQs';
 import Product from './BAITAPLON2/product';
 import ProductDetail from './BAITAPLON2/ProductDetail/ProductDetail';
+import Contact from './BAITAPLON2/contact';
+import Introduce from './BAITAPLON2/introduce';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/Product' element={<Product/>}></Route>
+        <Route path='/Contact' element={<Contact/>}></Route>
+        <Route path='/Introduce' element={<Introduce/>}></Route>
         <Route path='/New' element={<New />}></Route>
         <Route path='/NewsSwimming' element={<NewsSwimming/>} ></Route>
         <Route path='/NewsFitness' element={<NewsFitness/>}></Route>
