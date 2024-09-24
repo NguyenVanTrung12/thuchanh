@@ -2,7 +2,7 @@ import React from 'react';
 import '../Css/introduce.css';
 const Introduce = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid introduce">
             <div className="container">
                 <nav className="breadcrumb">
                     <span style={{ color: 'red' }}>Home</span>
@@ -12,7 +12,7 @@ const Introduce = () => {
                 <hr />
                 <div className="row">
                     {/* Left Column */}
-                    <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 left">
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8 left">
                         <h2>Introduce</h2>
                         <h2>Going to the gym every day helps improve your physical fitness.</h2>
                         <p>
@@ -31,7 +31,7 @@ const Introduce = () => {
                             the gym will give you advice and guidance from knowledgeable trainers in the field of fitness, they will
                             also help you balance your nutrition to make your exercises more effective.
                         </p>
-                        <img src="./img/g1.jpg" alt="Gym Benefits" style={{ width: '100%', height: '30%' }} />
+                        <img src="./img/home-rigt-tintuc-2.jpg" alt="Gym Benefits" style={{ width: '100%' }} />
                         <h2 style={{ marginTop: '30px' }}>Helps relieve stress effectively</h2>
                         <p>
                             Regular exercise and sports help people increase brain activity, relieve stress after a tiring day, or
@@ -42,8 +42,8 @@ const Introduce = () => {
                     </div>
 
                     {/* Right Column */}
-                    <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 right">
-                        <img src="./img/g3.jpg" alt="Article Image" width="80%" style={{ borderRadius: '10px' }} />
+                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 right">
+                        <img src="./img/g3.jpg" alt="Article Image"  style={{ borderRadius: '10px' ,width:'80%' }} />
                         <h4>Latest Articles</h4>
                         <div className="news">
                             {[
@@ -70,10 +70,10 @@ const Introduce = () => {
                                 },
                             ].map((article, index) => (
                                 <div className="row" key={index}>
-                                    <div className="col-sx-6 col-sm-6 col-md-6 col-lg-3">
-                                        <img src={article.img} alt="Article Avatar" className="avatar" />
+                                    <div className="col-sx-4 col-sm-4 col-md-4 col-lg-4 avatarr">
+                                        <img src={article.img} alt="Article Avatar" className="avatar"  />
                                     </div>
-                                    <div className="col-sx-6 col-sm-6 col-md-6 col-lg-9">
+                                    <div className="col-sx-8 col-sm-8 col-md-8 col-lg-8">
                                         <p>{article.text}</p>
                                     </div>
                                 </div>

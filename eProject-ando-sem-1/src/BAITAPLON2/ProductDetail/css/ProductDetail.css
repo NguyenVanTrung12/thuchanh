@@ -2,9 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.container-fluid{
-    margin: 20px 0px;
-}
+
 .container-fluid .container .left .Categories h5{
     color:#33373d ;
     background-color: #ddd;
