@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="container">
-        <img src="./img/g3.jpg" alt="Contact Banner" className="contact-banner" style={{ width: '100%' }} />
         <nav className="breadcrumb">
           <Link class="nav-link" to="/"><span style={{ color: 'red' }}>Home</span>
             <span> » </span>
