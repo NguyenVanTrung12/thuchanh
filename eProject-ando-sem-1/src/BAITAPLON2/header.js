@@ -21,7 +21,13 @@ export default function Header({ name, ...props }) {
                                     <input type="text" placeholder="Search..." />
                                     <button className='fa fa-search'></button>
                                     <Link to='/Register'><i class="fas fa-user fa-lg" style={{ color: '#ffa500' }}></i></Link>
+                                    <Link to='/shoppingcart '> <i class="fas fa-shopping-cart fa-lg" style={{ color: '#ffa500' }} /> </Link>
                                 </div>
+                               
+
+                            
+                             
+
 
                             </div>
                         </div>
@@ -46,19 +52,7 @@ export default function Header({ name, ...props }) {
                                 <Link to="/Product" class="nav-link">Product</Link>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <div class="dropdown">
-                                    <button class="dropbtn">links</button>
-                                    <div class="dropdown-content">
-                                        <a href="#">Cycling</a>
-                                        <a href="#">Swimming</a>
-                                        <a href="#">Sports & Fitness</a>
-                                        <a href="#">Group Exercise</a>
-                                        <a href="#">Membership</a>
-                                        <a href="#">Salon & Spa</a>
-                                    </div>
-                                </div>
-                            </li>
+                           
                             <li class="nav-item">
                                 <Link class="nav-link" to="/introduce">Introduce</Link>
                             </li>
@@ -91,7 +85,7 @@ export default function Header({ name, ...props }) {
                     </div>
                 </nav>
             </div>
-        </div>
+        </div >
 
     );
 };

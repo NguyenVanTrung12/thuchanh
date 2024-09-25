@@ -36,17 +36,21 @@
 hr{
     color: white;
 }
-.search button{
+.search .fa-search{
     margin-left: -40px;
-    background-color: orange;
-    padding: 11.5px 12.5px;
+  background-color: #ffa500;
+    padding: 12px 14px;
     color: white;
     border: none;
 }
-.search button:hover {
+.search .fa-search:hover {
     background-color: red;
     color: white;
 }
+
+    
+
+
 
 .icon a i{
 margin: 60px 0px;
