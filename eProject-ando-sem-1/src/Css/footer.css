@@ -1,13 +1,11 @@
 .footer {
     background-color: #54545c;
 }
-
-i {
+.vertical-list i {
     color: white;
     margin-top: 15px;
     margin-left: 50px;
 }
-
 .col1 {
     text-align: center;
 }
@@ -16,17 +14,18 @@ i {
     margin-left: 20px;
     color: white;
 }
-
+.col2 i {
+    color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+}
 .col3 {
-   
     color: white;
 }
-.col4 {
-    margin-top: 30px !important;
-    color: white;
-}
-.icon {
+.icon1 {
     font-size: 20px;
+    color: white;
+    margin-left: 50px;
 }
 .policy-container {
     display: flex;
@@ -39,6 +38,8 @@ i {
 .policy-column {
     flex: 1;
     padding: 0 10px; /* Điều chỉnh khoảng cách giữa các cột nếu cần */
+    margin: 20px 0;
+    color: white;
 }
 
 .policy-column b {
@@ -46,10 +47,9 @@ i {
 }
 .vertical-list b {
     margin: 20px 10px;
-
 }
 .vertical-list  {
-    margin: 15px 10px;
+    margin: 10px 10px;
 
 }
 .vertical-list i {
@@ -67,7 +67,6 @@ i {
     margin-top: 10px;
 }
 .col5 {
-    margin-top: 40px;
     border-top: 1px solid white;
     display: flex;
     justify-content: center; /* Căn giữa theo chiều ngang */

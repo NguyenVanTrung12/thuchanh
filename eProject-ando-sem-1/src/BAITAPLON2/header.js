@@ -51,7 +51,7 @@ export default function Header({ name, ...props }) {
                                         <Link to="FAQs" class="nav-link" aria-disabled="true">FAQs</Link>
                                     </li>
                                     <li class="nav-item">
-                                        <Link to="#" class="nav-link" aria-disabled="true">Enquiry</Link>
+                                        <Link to="/Register" class="nav-link" aria-disabled="true">Enquiry</Link>
                                     </li>
     
                                 </ul>

@@ -60,7 +60,6 @@ function App() {
         <Route path='/ProductDetails/:id' element={<ProductDetail/>}></Route>
         <Route path='/Introduce' element={<Introduce/>}></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
-
         <Route path='/shoppingcart' element={<ShoppingCart cart={cart} />}></Route>
 
         

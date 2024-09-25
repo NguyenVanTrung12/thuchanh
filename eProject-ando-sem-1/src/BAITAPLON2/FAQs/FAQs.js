@@ -24,9 +24,8 @@ function FAQs() {
 
     return (
         <>
-            <div class="container faq">
-
-                <h2 >Frequently Asked Questions</h2>
+            <div class="container FAQ">
+                <h2>Frequently Asked Questions</h2>
                 <div class="accordion">
                     <div class="accordion-item">
                         <button id="accordion-button-1" aria-expanded="false">
