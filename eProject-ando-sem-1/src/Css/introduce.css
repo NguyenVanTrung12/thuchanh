@@ -87,11 +87,11 @@ h2 {
 
         .container-fluid .container .right .news {
 
-            width: 100% !important;
+            width: 100% ;
         }
 
         .container-fluid .container .right .news .row p {
-            font-size: 13px !important;
+            font-size: 13px ;
         }
 
         .container-fluid .container .right .news .row img {
@@ -103,7 +103,7 @@ h2 {
 
     .container-fluid .container .right .news .row p {
         margin-left: 20px;
-        font-size: 13px !important;
+        font-size: 13px ;
     }
 
     .container-fluid .container .frm {
@@ -138,7 +138,7 @@ h2 {
     }
 
     .container-fluid .container .left img {
-        width: 100% !important;
+        width: 100% ;
         margin: 10px auto;
 
     }
@@ -150,14 +150,14 @@ h2 {
     }
 
     .container-fluid .container .right img {
-        width: 100% !important;
+        width: 100% ;
         margin: 10px auto;
 
     }
 
     .container-fluid .container .right .news {
-        margin: 20px auto !important;
-        width: 100% !important;
+        margin: 20px auto ;
+        width: 100% ;
     }
 
 
@@ -167,24 +167,24 @@ h2 {
     .container-fluid .container .left .row img {
         margin: 10px 0px;
         border-radius: 10px;
-        width: 100% !important;
+        width: 100% ;
     }
 
     .container-fluid .container .left .row img {
         margin: 10px 0px;
         border-radius: 10px;
-        width: 100% !important;
+        width: 100% ;
     }
 
     .container-fluid .container .right .news {
-        margin: 20px 40px !important;
+        margin: 20px 40px ;
         width: 100%;
 
 
     }
 
     .container-fluid .container .right .news {
-        margin: 20px auto !important;
+        margin: 20px auto ;
 
 
     }

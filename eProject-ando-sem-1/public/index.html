@@ -65,6 +65,18 @@
 
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script> 
+    <script src='https://code.jquery.com/jquery-3.7.1.js'></script>
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          if($(this).scrollTop()){
+            $('header').addClass('sticky');
+          }else{
+            $('header').removeClass('sticky');
+          }
+        });
+      });
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

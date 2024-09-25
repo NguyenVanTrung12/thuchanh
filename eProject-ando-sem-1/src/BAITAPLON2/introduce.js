@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Css/introduce.css';
 const Introduce = () => {
     return (
         <div className="container-fluid introduce">
             <div className="container">
-                <nav className="breadcrumb">
-                    <span style={{ color: 'red' }}>Home</span>
-                    <span> » </span>
-                    <span>Introduce</span>
-                </nav>
+            <nav className="breadcrumb">
+          <Link class="nav-link" to="/"><span style={{ color: 'red' }}>Home</span>
+            <span> » </span>
+            <span>Introduce</span></Link>
+        </nav>
                 <hr />
                 <div className="row">
                     {/* Left Column */}
@@ -43,7 +44,7 @@ const Introduce = () => {
 
                     {/* Right Column */}
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 right">
-                        <img src="./img/g3.jpg" alt="Article Image"  style={{ borderRadius: '10px' ,width:'80%' }} />
+                        <img src="./img/g3.jpg" alt="Article Image" style={{ borderRadius: '10px', width: '80%' }} />
                         <h4>Latest Articles</h4>
                         <div className="news">
                             {[
@@ -71,7 +72,7 @@ const Introduce = () => {
                             ].map((article, index) => (
                                 <div className="row" key={index}>
                                     <div className="col-sx-4 col-sm-4 col-md-4 col-lg-4 avatarr">
-                                        <img src={article.img} alt="Article Avatar" className="avatar"  />
+                                        <img src={article.img} alt="Article Avatar" className="avatar" />
                                     </div>
                                     <div className="col-sx-8 col-sm-8 col-md-8 col-lg-8">
                                         <p>{article.text}</p>
