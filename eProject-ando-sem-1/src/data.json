@@ -82,7 +82,7 @@
             "id": 2,
             "name": "Hoist CF3264 American brand Ab Bench [Ab Bench] [Super Flat/Decline Bench]",
             "price": 4329,
-            "imageUrl": "img/R (1).jfif",
+            "imageUrl": "img/R.jfif",
             "categoryId": 1,
             "checkid": 1
         },
@@ -97,7 +97,7 @@
         {
             "id": 4,
             "name": " The main function of the Hoist RS1601 abdominal exercise machine is to support comprehensive abdominal muscle training.",
-            "price": 20790,
+            "price": 2079,
             "imageUrl": "img/tapbung5",
             "categoryId": 1,
             "checkid": 1
@@ -113,7 +113,7 @@
         {
             "id": 6,
             "name": "  Hoist CL3601 American brand abdominal exercise machine [Abdominals]",
-            "price": 17504,
+            "price": 1750,
             "imageUrl": "img/R (1).jfif",
             "categoryId": 1,
             "checkid": 1
@@ -144,20 +144,27 @@
         },
         {
             "id": 10,
-            "name": "Joiner JD1140 women's dumbbells",
+            "name": "Joiner JD1140 women's dumbbells set 2kg",
             "price": 1410,
             "imageUrl": "img/tamau",
             "categoryId": 2,
             "checkid": 2
         },
-       
+        {
+            "id": 11,
+            "name": " Multi-purpose dumbbell set 20kg PT1124",
+            "price": 4776,
+            "imageUrl": "img/Botay.jpg",
+            "categoryId": 2,
+            "checkid": 2
+        },
         {
             "id": 12,
             "name": " 18kg Adjustable Kettlebell PT1311",
             "price": 2350,
             "imageUrl": "img/tavang",
             "categoryId": 2,
-            "checkid": 1
+            "checkid": 2
         },
         {
             "id": 13,
@@ -178,7 +185,7 @@
         {
             "id": 15,
             "name": "  Hoist CF3962A American brand single-bar and double-bar abdominal kicking training frame [Fitness Tree]",
-            "price": 5629,
+            "price": 56294,
             "imageUrl": "img/khungtapda",
             "categoryId": 3,
             "checkid": 3
@@ -202,7 +209,7 @@
         {
             "id": 18,
             "name": " Hoist RS1700 Multi-function Assisted Double Bar Training Machine [Chin/Dip Assist]",
-            "price": 27570,
+            "price": 2757,
             "imageUrl": "img/kethop",
             "categoryId": 3,
             "checkid": 3
@@ -210,7 +217,7 @@
         {
             "id": 19,
             "name": "  Hoist CF3359 American brand weightlifting squat machine [Power Squat]",
-            "price": 12134,
+            "price": 1213,
             "imageUrl": "img/kethop",
             "categoryId": 4,
             "checkid": 4
@@ -218,7 +225,7 @@
         {
             "id": 20,
             "name": "   Hoist Mi7 Smith Functional Training multi-purpose weightlifting rig, American brand",
-            "price": 35390,
+            "price": 3539,
             "imageUrl": "img/mayghanhtakethop",
             "categoryId": 4,
             "checkid": 4
@@ -243,7 +250,7 @@
             "id": 23,
             "name": "  Hoist CF3860 Shoulder bench with American brand bar [Military Press]",
             "price": 8663,
-            "imageUrl": "img/taptayne.jpg",
+            "imageUrl": "img/tatayy.jpg",
             "categoryId": 5,
             "checkid": 5
         },
@@ -263,14 +270,7 @@
             "categoryId": 6,
             "checkid": 6
         },
-        {
-            "id": 26,
-            "name": "   Drax Eyes Plus eye relaxation massage machine - Anti-aging",
-            "price": 1500,
-            "imageUrl": "img/maxamat.jpg",
-            "categoryId": 6,
-            "checkid": 6
-        },
+       
         {
             "id": 27,
             "name": "   Drax Laser-S handheld massage gun",

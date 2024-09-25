@@ -23,10 +23,6 @@ export default function Header({ name, ...props }) {
                                     <Link to='/Register'><i class="fas fa-user fa-lg" style={{ color: '#ffa500' }}></i></Link>
                                     <Link to='/shoppingcart '> <i class="fas fa-shopping-cart fa-lg" style={{ color: '#ffa500' }} /> </Link>
                                 </div>
-                               
-
-                            
-                             
 
 
                             </div>
@@ -79,7 +75,7 @@ export default function Header({ name, ...props }) {
                                 <Link class="nav-link" to="/FAQs">FAQs</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Enquiry</a>
+                                <a class="nav-link" href="#">Site Map</a>
                             </li>
                         </ul>
                     </div>

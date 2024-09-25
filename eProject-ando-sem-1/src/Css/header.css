@@ -48,7 +48,7 @@ hr{
     color: white;
 }
 
-    
+
 
 
 
@@ -60,6 +60,16 @@ margin: 60px 0px;
     color: white;
     font-weight: bold;
 }
+.list ul li a:hover{
+    color: white;
+   background-color: #161616;
+}
+.list ul li a:active{
+   
+   background-color: #161616;
+}
+
+
 
  .list ul {
     flex-wrap: wrap;
@@ -103,9 +113,7 @@ margin: 60px 0px;
 
 
 
-a:active {
-    color: #161616;
-}
+
 
 .dropbtn {
     background-color: #54545c;
