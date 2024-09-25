@@ -1,42 +1,36 @@
-
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../Css/main.css';
 import data from '../data.json';
 import { useEffect, useState } from 'react';
 import { useForm } from "react-hook-form";
 
-export default function Product(props) {
-
-
+export default function Product({ addToCart, limit, title, cat }) {
     const menu1 = data.categories;
     const menu2 = data.Gymaccessories;
     const productsAll = data.product;
+   
+
+    const [products, setProducts] = useState(productsAll.slice(0, 32));
+
+
+
     const getProductsOfCategory = (e) => {
         e.preventDefault();
         const id = e.target.id;
         setProducts(productsAll.filter(item => item.checkid == id));
     };
-    const [products, setProducts] = useState(productsAll.slice(0, 8));
-    useEffect(() => {
-    }, [products]);
 
+    useEffect(() => { }, [products]);
 
-    var { register, handleSubmit } = useForm();
-    const { limit, title, cat } = props;
-    var [allproduct, setAllproduct] = useState([]);
-    var [productt, setProductt] = useState([]);
-
+    const { register, handleSubmit } = useForm();
+    const navigate = useNavigate();
 
     function onsearch(data) {
-
-
-        let prods = productsAll.filter((item) => {
-            return item.name.toLowerCase().includes(data.name.toLowerCase())
-        });
+        const prods = productsAll.filter((item) =>
+            item.name.toLowerCase().includes(data.name.toLowerCase())
+        );
         setProducts(prods);
     }
-
-
 
     function onOrder(form) {
         try {
@@ -47,7 +41,7 @@ export default function Product(props) {
             const sortedData = [...productsAll].sort((a, b) => {
                 return form.order === 'asc' ? a.price - b.price : b.price - a.price;
             });
-            const prods = sortedData.slice(1, limit);
+            const prods = sortedData.slice(0, limit); // slice(0, limit) để lấy đúng giới hạn
             setProducts(prods);
         } catch (error) {
             console.error('Failed to fetch products:', error);
@@ -55,8 +49,10 @@ export default function Product(props) {
         }
     }
 
-
-
+    const handleAddToCart = (item) => {
+        addToCart(item); // Thêm sản phẩm vào giỏ hàng
+        navigate('/shoppingcart'); // Điều hướng đến trang giỏ hàng
+    };
 
     return (
         <section style={{ marginTop: 50 }}>
@@ -68,7 +64,7 @@ export default function Product(props) {
                     <br />
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-3">
                         <div class="single-sidebar ">
                             <form action="#" class="sidebar-search" method="post" onSubmit={handleSubmit(onsearch)}>
                                 <div className="form-group" >
@@ -137,7 +133,7 @@ export default function Product(props) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-9">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                         <div class="right-slidebar">
                             <div class="features_items">
                                 <div className='container'>
@@ -147,7 +143,7 @@ export default function Product(props) {
                                             products.map(item => (
 
 
-                                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" >
+                                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3" >
                                                     <div class="product-image-wrapper">
                                                         <div class="single-products">
                                                             <div class="productinfo text-center">
@@ -158,7 +154,7 @@ export default function Product(props) {
                                                             </div>
                                                             <div class="product-overlay" >
                                                                 <div class="overlay-content" >
-                                                                    <a href="#" class="btn btn-default add-to-cart">Add to cart</a>
+                                                                    <a class="btn btn-default add-to-cart" onClick={() => handleAddToCart(item)}>Add to cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -284,3 +280,5 @@ export default function Product(props) {
 
     );
 }
+
+

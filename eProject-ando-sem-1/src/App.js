@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './BAITAPLON2/header';
 import Footer from './BAITAPLON2/footer';
@@ -17,16 +17,37 @@ import Product from './BAITAPLON2/product';
 import ProductDetail from './BAITAPLON2/ProductDetail/ProductDetail';
 import Introduce from './BAITAPLON2/introduce';
 import Contact from './BAITAPLON2/contact';
+import ShoppingCart from './BAITAPLON2/ShoppingCart';
+
+
 
 
 function App() {
+
+  const [cart , setCart]=useState([]);
+
+  const addToCart = (product) => {
+    setCart((prevCart) => {
+      const isProductInCart = prevCart.find((item) => item.id === product.id);
+
+      if (isProductInCart) {
+        return prevCart.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
+      }
+
+      return [...prevCart, { ...product, quantity: 1 }];
+    });
+  };
   return (
     <div className="App">
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route path='/Product' element={<Product/>}></Route>
+        <Route path='/Product' element={<Product addToCart={addToCart}/>}></Route>
         <Route path='/New' element={<New />}></Route>
         <Route path='/NewsSwimming' element={<NewsSwimming/>} ></Route>
         <Route path='/NewsFitness' element={<NewsFitness/>}></Route>
@@ -39,6 +60,8 @@ function App() {
         <Route path='/ProductDetails/:id' element={<ProductDetail/>}></Route>
         <Route path='/Introduce' element={<Introduce/>}></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
+
+        <Route path='/shoppingcart' element={<ShoppingCart cart={cart} />}></Route>
 
         
       </Routes>
