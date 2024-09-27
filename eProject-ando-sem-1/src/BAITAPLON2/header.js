@@ -15,8 +15,12 @@ export default function Header({ name, ...props }) {
                     <div class="menu">
     
                         <nav class="navbar navbar-expand-lg " style={{ padding: 0 }}>
-    
+                        <Link to class="navbar-brand" href="#"></Link>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
                             <div class="collapse navbar-collapse list" id="navbarSupportedContent">
+                                
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <Link to="/" class="nav-link" aria-current="page" >Home</Link>
@@ -28,13 +32,12 @@ export default function Header({ name, ...props }) {
                                         <Link to="/New" class="nav-link" >News</Link>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <Link to="/Product" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a href="/Product" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Store
-                                        </Link>
+                                        </a>
                                         <ul class="dropdown-menu">
                                             <li><Link to class="dropdown-item" >Action</Link></li>
                                             <li><Link to class="dropdown-item" >Another action</Link></li>
-                                            <li><hr class="dropdown-divider" /></li>
                                             <li><Link to class="dropdown-item" >Something else here</Link></li>
                                         </ul>
                                     </li>
@@ -51,21 +54,18 @@ export default function Header({ name, ...props }) {
                                         <Link to="FAQs" class="nav-link" aria-disabled="true">FAQs</Link>
                                     </li>
                                     <li class="nav-item">
-                                        <Link to="/Register" class="nav-link" aria-disabled="true">Enquiry</Link>
+                                        <Link to="/Register" class="nav-link" aria-disabled="true" style={{marginRight:'15px'}}>Enquiry</Link>
                                     </li>
     
                                 </ul>
     
                             </div>
-                            <Link to class="navbar-brand" href="#"></Link>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
+                           
                         </nav>
                     </div>
                     <div class="bonus">
                         <div className='iconcart'>
-                            <i style={{ fontSize: '20px',marginRight: '20px' }} class='fa'>	&#xf07a;</i>
+                            <i style={{ fontSize: '20px',marginRight: '20px',marginLeft:'15px' }} class='fa'>	&#xf07a;</i>
                         </div>
                         <div className='login_menu'>
                             <a href=''>Sign in</a>

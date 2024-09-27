@@ -8,7 +8,7 @@ html{
     margin-top: 0px;
 }
 .logo img{
-    width: 30%;
+    max-width: 30%;
     margin: 0 auto;
     display: block;
 }
@@ -61,11 +61,10 @@ header{
     margin-top: 0px;
 }
 .bonus{
-    width: 20%;
+    width: 30%;
     display: flex;
     align-items: baseline;
     border-left: 1px solid #fff;
-    margin-left: 15px;
 }
 .login_menu a{
     text-decoration: none;
@@ -80,6 +79,7 @@ header{
 header.sticky{
     background: #54545c;
     opacity: 0.9;
+    z-index: 1;
 }
 header.sticky ul li a{
     color: #fff;
@@ -87,7 +87,23 @@ header.sticky ul li a{
 .list ul li a:hover{
     color: red;
 }
-
+.list ul li a:focus{
+    color: red;
+    
+}
 .login_menu a:hover{
     color: red;
 }
+@media screen and (max-width: 840px){
+    .logo img{
+        max-width: 50%;
+    }
+
+}
+@media only screen and (min-device-width: 400px) {
+    .banner_menu { 
+       background-image: url(../img/INBODY.jpg); 
+       background-size: 100% 100%;
+    }
+    
+  }

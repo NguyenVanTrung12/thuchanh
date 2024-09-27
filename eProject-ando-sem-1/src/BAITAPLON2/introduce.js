@@ -24,7 +24,7 @@ const Introduce = () => {
                             AE FITNESS today will share with readers the benefits of going to the gym to exercise every day.
                         </p>
                         <h2>Benefits of going to the gym every day</h2>
-                        <h2>Practice systematically</h2>
+                        <h2 style={{color: '#54545c',fontSize: 'x-large'}}>Practice systematically</h2>
                         <p>
                             Of course, going to the gym will give you a more systematic workout than working out at home. Being able
                             to interact with people and get exercise guidance will help you practice a healthier and more disciplined
@@ -33,7 +33,7 @@ const Introduce = () => {
                             also help you balance your nutrition to make your exercises more effective.
                         </p>
                         <img src="./img/home-rigt-tintuc-2.jpg" alt="Gym Benefits" style={{ width: '100%' }} />
-                        <h2 style={{ marginTop: '30px' }}>Helps relieve stress effectively</h2>
+                        <h2 style={{ marginTop: '30px',color: '#54545c',fontSize: 'x-large' }}>Helps relieve stress effectively</h2>
                         <p>
                             Regular exercise and sports help people increase brain activity, relieve stress after a tiring day, or
                             help you create more energy to start a new day. Regular exercise makes your body produce substances such
