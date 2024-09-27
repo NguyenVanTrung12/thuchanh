@@ -13,11 +13,13 @@
 .col2 span {
     margin-left: 20px;
     color: white;
+    font-size: 17px;
 }
 .col2 i {
     color: white;
-    margin-top: 15px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 25px;
 }
 .col3 {
     color: white;
@@ -38,7 +40,7 @@
 .policy-column {
     flex: 1;
     padding: 0 10px; /* Điều chỉnh khoảng cách giữa các cột nếu cần */
-    margin: 20px 0;
+    margin: 20px 30px;
     color: white;
 }
 
@@ -46,10 +48,10 @@
     display: block; /* Đảm bảo các thẻ <b> nằm trên các dòng riêng biệt */
 }
 .vertical-list b {
-    margin: 20px 10px;
+    margin: 20px 15px;
 }
-.vertical-list  {
-    margin: 10px 10px;
+.vertical-list{
+    margin: 10px -10px;
 
 }
 .vertical-list i {
