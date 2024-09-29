@@ -1,19 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Css/introduce.css';
 const Introduce = () => {
     return (
         <div className="container-fluid introduce">
             <div className="container">
                 <nav className="breadcrumb">
-<<<<<<< HEAD
                     <Link class="nav-link" to="/"><span style={{ color: 'red' }}>Home</span>
                         <span> » </span>
                         <span>Introduce</span></Link>
-=======
-                    <span style={{ color: 'red' }}>Home</span>
-                    <span> » </span>
-                    <span>Introduce</span>
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
                 </nav>
                 <hr />
                 <div className="row">
@@ -29,11 +24,7 @@ const Introduce = () => {
                             AE FITNESS today will share with readers the benefits of going to the gym to exercise every day.
                         </p>
                         <h2>Benefits of going to the gym every day</h2>
-<<<<<<< HEAD
                         <h2 style={{ color: '#54545c', fontSize: 'x-large' }}>Practice systematically</h2>
-=======
-                        <h2>Practice systematically</h2>
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
                         <p>
                             Of course, going to the gym will give you a more systematic workout than working out at home. Being able
                             to interact with people and get exercise guidance will help you practice a healthier and more disciplined
@@ -42,11 +33,7 @@ const Introduce = () => {
                             also help you balance your nutrition to make your exercises more effective.
                         </p>
                         <img src="./img/home-rigt-tintuc-2.jpg" alt="Gym Benefits" style={{ width: '100%' }} />
-<<<<<<< HEAD
                         <h2 style={{ marginTop: '30px', color: '#54545c', fontSize: 'x-large' }}>Helps relieve stress effectively</h2>
-=======
-                        <h2 style={{ marginTop: '30px' }}>Helps relieve stress effectively</h2>
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
                         <p>
                             Regular exercise and sports help people increase brain activity, relieve stress after a tiring day, or
                             help you create more energy to start a new day. Regular exercise makes your body produce substances such
@@ -56,7 +43,6 @@ const Introduce = () => {
                     </div>
 
                     {/* Right Column */}
-<<<<<<< HEAD
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 right">
                         <img src="./img/home-rigt-tintuc-1.jpg" alt="" width="80%" style={{ borderradius: '10px' }} />
                         <h4> Latest Posts</h4>
@@ -65,42 +51,6 @@ const Introduce = () => {
 
                                 <div class="col-xs-12  col-sm-12  col-md-6  col-lg-3 ">
                                     <Link to="/NewsBicycle"><img src="./img/home-tintuc-1.jpg" alt="" /></Link>
-=======
-                    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 right">
-                        <img src="./img/g3.jpg" alt="Article Image" className='imgg'  style={{ borderRadius: '10px' ,width:'80%' }} />
-                        <h4>Latest Articles</h4>
-                        <div className="news">
-                            {[
-                                {
-                                    img: './img/i4.jfif',
-                                    text: 'The importance of snacks for bodybuilders',
-                                },
-                                {
-                                    img: './img/i1.jfif',
-                                    text: 'How to get a toned body',
-                                },
-                                {
-                                    img: './img/i5.jfif',
-                                    text:
-                                        "Don't miss 5 leg exercises to help your legs be strong and your leg muscles are strong",
-                                },
-                                {
-                                    img: './img/i3.jfif',
-                                    text: 'Surprising way to reduce facial fat effectively with a scientific diet',
-                                },
-                                {
-                                    img: './img/i6.jpg',
-                                    text: 'Not one exercising in cold weather',
-                                },
-                            ].map((article, index) => (
-                                <div className="row" key={index}>
-                                    <div className="col-sx-4 col-sm-4 col-md-4 col-lg-4 avatarr">
-                                        <img src={article.img} alt="Article Avatar" className="avatar"  />
-                                    </div>
-                                    <div className="col-sx-8 col-sm-8 col-md-8 col-lg-8">
-                                        <p>{article.text}</p>
-                                    </div>
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
                                 </div>
                                 <div class="col-xs-12  col-sm-12  col-md-6  col-lg-9  baiviet-text">
                                     <p>The importance of Cycling for health </p>

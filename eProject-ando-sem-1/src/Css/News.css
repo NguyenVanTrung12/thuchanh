@@ -186,6 +186,7 @@
 
       width: 100% !important;
     }
+
     .imgg img {
       margin-left: 0px !important;
     }
@@ -272,70 +273,67 @@
     width: 100% !important;
   }
 
-<<<<<<< HEAD
-  .container-fluid .container .right  {
-    width: 100%;
-  
-  
-  }
-  .container-fluid .container .right .baiviet  {
-    margin: 20px auto ;
-=======
-  .news .container .left .tintuc2 .cart img {
-    margin: 10px 0px;
-    border-radius: 10px;
-    width: 100% !important;
-  }
-
-  .news .container .right {
-    margin: 20px 20px !important;
+  .container-fluid .container .right {
     width: 100%;
 
 
   }
 
-  .news .container .right .baiviet {
-    margin: 20px auto !important;
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
-    width: 50% !important;
+  .container-fluid .container .right .baiviet {
+    margin: 20px auto;
+
+    .news .container .left .tintuc2 .cart img {
+      margin: 10px 0px;
+      border-radius: 10px;
+      width: 100% !important;
+    }
+
+    .news .container .right {
+      margin: 20px 20px !important;
+      width: 100%;
 
 
-  }
-<<<<<<< HEAD
-  .container-fluid .container .dangky-tintuc {
+    }
+
+    .news .container .right .baiviet {
+      margin: 20px auto !important;
+      width: 50% !important;
+
+
+    }
+
   }
 }
-@media screen and (min-width: 300px) and (max-width:673px) {
-  .row img {
-=======
-  .news .container .left img {
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
-    width: 100% !important;
-    margin: 10px auto;
-}
-}
 
-@media screen and (min-width: 300px) and (max-width:673px) {
-  .news.row img {
-    width: 77%;
-    text-align: center;
-    margin: 20px 10px;
+  @media screen and (min-width: 300px) and (max-width:673px) {
+    .row img {
+      width: 100% !important;
+      margin: 10px auto;
+    }
   }
 
-  .news.cart img {
-    width: 100% !important;
-  }
+  @media screen and (min-width: 300px) and (max-width:673px) {
+    .news.row img {
+      width: 77%;
+      text-align: center;
+      margin: 20px 10px;
+    }
 
-  .imgg img {
-    margin-left: 0px !important;
-  }
+    .news.cart img {
+      width: 100% !important;
+    }
 
-  .news .container .right .baiviet {
-    margin: 20px 24px !important;
-    width: 73% !important;
+    .imgg img {
+      margin-left: 0px !important;
+    }
+
+    .news .container .right .baiviet {
+      margin: 20px 24px !important;
+      width: 73% !important;
+    }
+
+    .news .container .left img {
+      width: 100% !important;
+      margin: 10px auto;
+    }
   }
-  .news .container .left img {
-    width: 100% !important;
-    margin: 10px auto;
-}
-}

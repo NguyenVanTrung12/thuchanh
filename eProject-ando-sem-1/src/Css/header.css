@@ -1,34 +1,28 @@
-html {
+html{
     margin-top: 0px;
 }
-
-#root {
+#root{
     margin-top: 0px;
 }
-
-.App {
+.App{
     margin-top: 0px;
 }
-
-.logo img {
+.logo img{
     max-width: 30%;
     margin: 0 auto;
     display: block;
 }
-
-.logo {
+.logo{
     width: 30%;
     color: #fff;
 }
-
-.menu {
+.menu{
     display: block;
     width: 50%;
     float: right;
     justify-content: end;
 }
-
-.menu ul li a {
+.menu ul li a{
     color: #fff;
     justify-content: space-between;
     font-weight: bold;
@@ -36,33 +30,28 @@ html {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.list ul {
+.list ul{
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
-
-.list {
+.list{
     display: flex;
     justify-content: center;
 }
-
-.body {
+.body{
     color: #fff;
     background-color: #000;
     margin-top: 0px;
 }
-
-header {
+header{
     width: 100%;
     top: 0;
     left: 0;
     position: fixed;
     margin-top: 0px;
 }
-
-.header1 {
+.header1{
     display: flex;
     align-items: center;
     width: 100%;
@@ -71,45 +60,37 @@ header {
     transition: all 0.5s ease-in-out;
     margin-top: 0px;
 }
-
-.bonus {
+.bonus{
     width: 30%;
     display: flex;
     align-items: baseline;
     border-left: 1px solid #fff;
 }
-
-.login_menu a {
+.login_menu a{
     text-decoration: none;
     color: #fff;
 }
-
-.banner_menu {
+.banner_menu{
     margin-top: 0px;
     background-image: url(../img/INBODY.jpg);
     min-height: 620px;
     width: 100%;
 }
-
-header.sticky {
+header.sticky{
     background: #54545c;
     opacity: 0.9;
     z-index: 1;
 }
-
-header.sticky ul li a {
+header.sticky ul li a{
     color: #fff;
 }
-
-.list ul li a:hover {
+.list ul li a:hover{
     color: red;
 }
-
-.list ul li a:focus {
+.list ul li a:focus{
     color: red;
-
+    
 }
-<<<<<<< HEAD
 .dropdown-menu ul li a {
     width: 100%;
 }
@@ -122,19 +103,9 @@ header.sticky ul li a {
 
 @media screen and (max-width: 840px){
     .logo img{
-=======
-
-.login_menu a:hover {
-    color: red;
-}
-
-@media screen and (max-width: 840px) {
-    .logo img {
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
         max-width: 50%;
     }
 }
-<<<<<<< HEAD
 @media only screen and (max-width: 400px) {
     .banner_menu { 
        background-image: url(../img/INBODY.jpg); 
@@ -159,19 +130,3 @@ header.sticky ul li a {
     
     
   }
-=======
-
-@media only screen and (min-device-width: 400px) {
-    .banner_menu {
-        background-image: url(../img/INBODY.jpg);
-        background-size: 100% 100%;
-    }
-
-}
-
-.nav-item.dropdown:hover .dropdown-menu {
-    background-color: #54545c;
-    width: 250px;
-    display: block;
-}
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4

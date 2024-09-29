@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 .avatar {
     width: 100px;
-=======
-.introduce .avatar {
-    width: 50px;
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
     height: 50px;
     border-radius: 50%;
     vertical-align: middle;
@@ -16,41 +11,33 @@
     margin-top: 5px;
 }
 
-.introduce h4 {
+h4 {
     padding: 10px 0px;
     font-weight: 700;
     color: #bd141a;
 }
 
-.introduce h2 {
+h2 {
     color: #555;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-<<<<<<< HEAD
 .baiviet {
-=======
-.introduce .news {
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
     border: 1px solid #ddd;
     width: 60%;
     margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
 .baiviet .row {
-=======
-.introduce .news .row {
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
     border-bottom: 1px solid #ddd;
     padding: 10px 0px;
     margin: 0 auto;
     width: 95%;
 }
 
-.introduce .frm {
+.frm {
     border-radius: 5px;
     width: 100%;
     margin: 20px 0px;
@@ -60,7 +47,7 @@
 
 }
 
-.introduce .frm textarea {
+.frm textarea {
     margin-top: 10px;
     width: 90%;
     padding: 5px 5px;
@@ -80,7 +67,7 @@
     margin-left: 10px;
 }
 
-.introduce .frm button {
+.frm button {
     margin: 10px 10px;
     width: 90%;
     background-color: #FF9800;
@@ -91,19 +78,13 @@
     border-radius: 50px;
 }
 
-<<<<<<< HEAD
 #img {
     width: 100%;
-=======
-.introduce #img {
-    width: 80%;
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
 }
 
 @media screen and (min-width: 700px) and (max-width:1400px) {
     @media screen and (min-width: 700px) and (max-width:1400px) {
 
-<<<<<<< HEAD
         .container-fluid .container .right .baiviet {
 
             width: 80% ;
@@ -114,34 +95,18 @@
         }
 
         .container-fluid .container .right .baiviet .row img {
-=======
-        .introduce .container-fluid .container .right .news {
-
-            width: 100% !important;
-        }
-
-        .introduce .container-fluid .container .right .news .row p {
-            font-size: 13px !important;
-        }
-
-        .introduce .container-fluid .container .right .news .row img {
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
             border-radius: 50%;
             width: 50px;
 
         }
     }
 
-<<<<<<< HEAD
     .container-fluid .container .right .baiviet .row p {
-=======
-    .introduce .container-fluid .container .right .news .row p {
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
         margin-left: 20px;
-        font-size: 13px !important;
+        font-size: 13px ;
     }
 
-    .introduce .container-fluid .container .frm {
+    .container-fluid .container .frm {
         border-radius: 5px;
         width: 100%;
         margin: 20px 0px;
@@ -150,7 +115,7 @@
 
     }
 
-    .introduce .container-fluid .container .frm input {
+    .container-fluid .container .frm input {
         border-radius: 10px;
         border: none;
         margin: 10px 10px;
@@ -158,7 +123,7 @@
         padding: 5px 5px;
     }
 
-    .introduce .container-fluid .container .frm textarea {
+    .container-fluid .container .frm textarea {
         margin: 10px 10px;
         width: 90%;
         padding: 5px 5px;
@@ -166,91 +131,56 @@
         border: none;
     }
 
-    .introduce .container-fluid .container .left {
+    .container-fluid .container .left {
         margin: 10px auto;
         border-radius: 10px;
 
     }
 
-    .introduce .container-fluid .container .left img {
-        width: 100% !important;
+    .container-fluid .container .left img {
+        width: 100% ;
         margin: 10px auto;
 
     }
 
-<<<<<<< HEAD
     .container-fluid .container .phu {
-=======
-    .introduce .container-fluid .container .right {
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
         margin: 10px auto;
         border-radius: 10px;
 
     }
 
-<<<<<<< HEAD
     .container-fluid .container .phu img {
         width: 100% ;
-=======
-    .introduce .container-fluid .container .right img {
-        width: 100% !important;
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
         margin: 10px auto;
 
     }
 
-<<<<<<< HEAD
     .container-fluid .container .phu .table {
         width: 100% ;
-=======
-    .introduce .container-fluid .container .right .news {
-        margin: 20px auto !important;
-        width: 100% !important;
-    }
-    .introduce .news  {
-       
-        width: 100% !important;
-   
-    }
-  
-    .introduce .right .imgg  {
-       
-        width: 100% !important;
-   
-    }
-    .introduce .right .frm{
-         width: 100% !important;   
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
     }
 
 
 }
 
 @media screen and (min-width: 375px) and (max-width:932px) {
-    .introduce .container-fluid .container .left .row img {
+    .container-fluid .container .left .row img {
         margin: 10px 0px;
         border-radius: 10px;
-        width: 100% !important;
+        width: 100% ;
     }
 
-    .introduce .container-fluid .container .left .row img {
+    .container-fluid .container .left .row img {
         margin: 10px 0px;
         border-radius: 10px;
-        width: 100% !important;
+        width: 100% ;
     }
 
-<<<<<<< HEAD
     .container-fluid .container .phu .table {
-=======
-    .introduce .container-fluid .container .right .news {
-        margin: 20px 40px !important;
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
         width: 100%;
 
 
     }
 
-<<<<<<< HEAD
     .container-fluid .container .avatarr img {
         width: 10%;
         margin: 0 auto;
@@ -271,25 +201,3 @@
         text-align: center;
     }
 }   
-=======
-    .introduce .container-fluid .container .right .news {
-        margin: 20px auto !important;
-
-
-    }
-    .introduce .news  {
-       
-        width: 100% !important;
-   
-    }
-  
-    .introduce .right .imgg  {
-       
-        width: 100% !important;
-   
-    }
-    .introduce .right .frm{
-         width: 100% !important;   
-    }
-}
->>>>>>> 21877cbf6c1d8e5a80bc20fa45bff5d4cd4521b4
