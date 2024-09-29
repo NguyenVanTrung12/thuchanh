@@ -41,11 +41,11 @@ export default function Header({ name, ...props }) {
                                             <li><Link to="/NewSalos" className="dropdown-item">Salon & Spa</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="nav-item dropdown">
-                                        <Link to="/Product" className="nav-link dropdown-toggle" role="button" aria-expanded="false">
+                                    <li className="nav-item">
+                                        <Link to="/Product" className="nav-link" role="button" aria-expanded="false">
                                             Store
                                         </Link>
-                                        <ul className="dropdown-menu" style={{background: '#54545c',width: 'auto'}}>
+                                        {/* <ul className="dropdown-menu" style={{background: '#54545c',width: 'auto'}}>
                                             <li><Link to="/action" className="dropdown-item">ABDOMINAL CHAIR</Link></li>
                                             <li><Link to="/another-action" className="dropdown-item">DUMBELL</Link></li>
                                             <li><Link to="/something-else" className="dropdown-item">SINGLE BAR/ DOUBLE BAR</Link></li>
@@ -54,7 +54,7 @@ export default function Header({ name, ...props }) {
                                             <li><Link to="/something-else" className="dropdown-item">MASSAGE MACHINE</Link></li>
                                             <li><Link to="/something-else" className="dropdown-item">MASSAGE CHAIR</Link></li>
                                             <li><Link to="/something-else" className="dropdown-item">GYM CESSORIES</Link></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     
                                     <li class="nav-item">
