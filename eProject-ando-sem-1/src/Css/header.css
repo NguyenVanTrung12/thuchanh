@@ -91,19 +91,42 @@ header.sticky ul li a{
     color: red;
     
 }
+.dropdown-menu ul li a {
+    width: 100%;
+}
 .login_menu a:hover{
     color: red;
 }
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 @media screen and (max-width: 840px){
     .logo img{
         max-width: 50%;
     }
-
 }
-@media only screen and (min-device-width: 400px) {
+@media only screen and (max-width: 400px) {
     .banner_menu { 
        background-image: url(../img/INBODY.jpg); 
        background-size: 100% 100%;
     }
+    header{
+        width: 100%;
+    }
+  }
+@media screen and (min-width: 430px) and (max-width: 932px){
+    .banner_menu { 
+       background-image: url(../img/INBODY.jpg); 
+       background-size: 100% 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .bonus{
+        width: 30%;
+    }
+    
+    
     
   }

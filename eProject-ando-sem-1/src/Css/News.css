@@ -267,16 +267,17 @@
   }
 
   .container-fluid .container .right  {
-    margin: 20px 40px !important;
     width: 100%;
   
   
   }
   .container-fluid .container .right .baiviet  {
-    margin: 20px auto !important;
+    margin: 20px auto ;
     width: 50% !important;
   
   
+  }
+  .container-fluid .container .dangky-tintuc {
   }
 }
 @media screen and (min-width: 300px) and (max-width:673px) {
