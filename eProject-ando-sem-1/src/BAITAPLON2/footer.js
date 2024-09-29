@@ -15,10 +15,10 @@ export default function Footer() {
                         <br />
                         <i className='fa fa-phone address'></i><span>096.8276.996</span>
                         <br />
-                        <i className="fa fa-map-marker address"></i><span>daotao@bachkhoa-aptech.edu.vn
+                        <i className="fa fa-map-marker address"></i><span>238 Hoang Quoc Viet, Bac Tu Liem, Ha Noi
                         </span>
                         <br />
-                        <i className="fa fa-envelope address"></i><span>duongdeptrai@gmail.com</span>
+                        <i className="fa fa-envelope address"></i><span>daotao@bachkhoa-aptech.edu.vn</span>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-3 col4">
                         <div className="policy-container">

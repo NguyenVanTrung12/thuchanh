@@ -21,7 +21,7 @@ function New() {
 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <div class="cart">
-                    <Link to="/NewsBicycle"><img src="./img/home-tintuc-1.jpg" alt="" style={{width:'90%'}} /></Link>
+                    <Link to="/NewsBicycle"><img src="./img/home-tintuc-1.jpg" alt="" style={{width:'100%'}} /></Link>
                     <b>The importance of Cycling for health </b>
                     <p>
                       Cycling is the perfect choice if you are looking for exercises to slim and firm your hips and legs. Exercising on a bicycle...</p>
@@ -29,7 +29,7 @@ function New() {
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <div class="cart">
-                    <Link to="/NewsSwimming"><img src="./img/home-tintuc-2.jpg" alt="" style={{width:'90%'}} /></Link>
+                    <Link to="/NewsSwimming"><img src="./img/home-tintuc-2.jpg" alt="" style={{width:'100%'}} /></Link>
                     <b>The importance of swimming for health </b>
                     <p>strengthen muscles, regular swimming is also an ideal way to exercise and improve cardiovascular and pulmonary health...</p>
                   </div>
@@ -48,7 +48,7 @@ function New() {
 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                   <div class="cart">
-                    <Link to="/NewGroupFitnes"><img src="./img/home-tintuc-4.jpg" alt="" style={{width:'90%'}} /></Link>
+                    <Link to="/NewGroupFitnes"><img src="./img/home-tintuc-4.jpg" alt="" style={{width:'100%'}} /></Link>
                     <b>Benefits of Group Fitness </b>
                     <p>Participating in group exercise not only reduces stress levels but also achieves many other notable physical health benefits...</p>
                   </div>

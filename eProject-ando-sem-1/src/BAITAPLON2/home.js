@@ -15,19 +15,19 @@ export default function Home() {
 
     const feedbacks = [
         {
-            img: 'img/cus1.jpg',
+            img: 'img/1.webp',
             text: 'Each workout with the coach burned so many calories... I became "addicted" to this sport.',
-            author: 'Tran Lan Ngoc / Hotel Manager',
+            author: 'Duong Thi Hong Nhung / Hotel Manager',
         },
         {
-            img: 'img/cus2.jpg',
+            img: ' img/cus3.jpg',
             text: 'Now my previous belly fat has become a little smaller. I really thank the coaches...',
-            author: 'Tran Lan Ngoc / Teacher',
+            author: 'Nguyen Van Trung / Teacher',
         },
         {
-            img: 'img/cus3.jpg',
+            img: 'img/2.webp',
             text: 'Each workout with the coach burned so many calories... I became "addicted" to this sport.',
-            author: 'Tran Lan Ngoc / Hotel Manager',
+            author: 'Tran Thi Bach Thao / Hotel Manager',
         },
     ];
     return (
@@ -368,7 +368,6 @@ export default function Home() {
 
 
 
-            {/* Phần chỉnh sửa */}
             <div className="container-fluid banner">
                 <div className="container text-center">
                     <h2 className="feedback-title">
@@ -381,7 +380,7 @@ export default function Home() {
                                     <img src={feedback.img} className="feedback-img" alt={`Customer ${index + 1}`} />
                                     <p className="feedback-text">{feedback.text}</p>
                                     <p className="feedback-author">
-                                        <b>{feedback.author}</b>
+                                        <b style={{ color:'red' ,fontSize:'20px'}}>{feedback.author}</b>
                                     </p>
                                 </div>
                             </div>
@@ -390,48 +389,6 @@ export default function Home() {
                 </div>
             </div>
 
-
-
-
-            {/* Phần chỉnh sửa */}
-
-
-
-
-
-
-            {/* 
-            <div className="container-fluid banner">
-                <div className="container text-center">
-                    <h2 className="feedback-title">CUSTOMER <span>FEEDBACK</span></h2>
-                    <div className="row">
-                        <div className="col-12 col-sm-6 col-md-4">
-                            <div className="feedback-item">
-                                <img src="img/cus1.jpg" className="feedback-img" alt="Customer 1" />
-                                <p className="feedback-text">Each workout with the coach burned so many calories... I became
-                                    "addicted" to this sport.</p>
-                                <p className="feedback-author"><b>Tran Lan Ngoc / Hotel Manager</b></p>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-4">
-                            <div className="feedback-item">
-                                <img src="img/cus2.jpg" className="feedback-img" alt="Customer 2" />
-                                <p className="feedback-text">Now my previous belly fat has become a little smaller. I really thank
-                                    the coaches...</p>
-                                <p className="feedback-author"><b>Tran Lan Ngoc / Teacher</b></p>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-4">
-                            <div className="feedback-item">
-                                <img src="img/cus3.jpg" className="feedback-img" alt="Customer 3" />
-                                <p className="feedback-text">Each workout with the coach burned so many calories... I became
-                                    "addicted" to this sport.</p>
-                                <p className="feedback-author"><b>Tran Lan Ngoc / Hotel Manager</b></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
 
 
 
@@ -503,7 +460,7 @@ export default function Home() {
             <section className="class-schedule-area section-padding parallax" id="schedule">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-8 col-md-offset-2 text-center">
+                        <div className="col-md-12 col-md-offset-2 text-center">
                             {/* Section title */}
                             <div className="gym-title">
                                 <h2>

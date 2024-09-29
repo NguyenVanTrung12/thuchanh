@@ -1,5 +1,4 @@
-﻿
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
 
 
 .zoom-effect-container {
@@ -14,20 +13,24 @@
 }
 
 .zoom-effect-container:hover .image-zoom {
-  transform: scale(1.2); /* Tăng kích thước ảnh khi hover */
+  transform: scale(1.2);
+  /* Tăng kích thước ảnh khi hover */
 }
 
 .accordion-header button {
-  background-color: #ff8800; /* Màu cam nhạt */
+  background-color: #ff8800;
+  /* Màu cam nhạt */
   color: white;
 }
+
 .accordion-button:focus {
   box-shadow: none;
 }
 
 
 
-.left-sidebar h2, .brands_products h2 {
+.left-sidebar h2,
+.brands_products h2 {
   color: #FE980F;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -36,18 +39,20 @@
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  z-index:3;
+  z-index: 3;
 }
 
-.left-sidebar h2:after, h2.title:after{
-	content: " ";
-	position: absolute;
-	border: 1px solid #f5f5f5;
-	bottom:6px;
-	left: 0;
-	width: 100%;
-	height: 0;
-	z-index: -2;
+.left-sidebar h2:after,
+h2.title:after {
+  margin: -5px 0;
+  content: " ";
+  position: absolute;
+  border: 1px solid #f5f5f5;
+  bottom: 6px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: -2;
 }
 
 
@@ -73,40 +78,40 @@ h2.title {
   position: relative;
 }
 
-.product-image-wrapper{
-	border:1px solid #F7F7F5;
-	overflow: hidden;
-	margin-bottom:30px;
+.product-image-wrapper {
+  border: 1px solid #F7F7F5;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .single-products {
   position: relative;
 }
 
-.productinfo h2{
-	color: #FE980F;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
+.productinfo h2 {
+  color: #FE980F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.productinfo p{
+.productinfo p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #696763;
 }
 
-.productinfo img{
+.productinfo img {
   width: 100%;
 }
 
-.productinfo{
- position:relative;
+.productinfo {
+  position: relative;
 }
 
 .product-overlay {
-  background:rgba(161, 157, 147, 0.637);
+  background: rgba(161, 157, 147, 0.315);
   top: 0;
   display: none;
   height: 0;
@@ -114,17 +119,17 @@ h2.title {
   transition: height 500ms ease 0s;
   width: 100%;
   display: block;
-  opacity:1;
+  opacity: 1;
 }
 
 .product-overlay a {
   color: #f5f5f5;
-  
+
 }
 
 .single-products:hover .product-overlay {
-  display:block;
-  height:70%;
+  display: block;
+  height: 70%;
 }
 
 
@@ -137,30 +142,30 @@ h2.title {
 }
 
 .product-overlay .add-to-cart {
-  background:#fff;
+  background: #fff;
   border: 1 none;
   border-radius: 0;
-  color: #e78300 ;
+  color: #e78300;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  margin-bottom: 100px;
-
-  
-} 
+  margin-bottom: 80px;
 
 
-.add-to-cart{
+}
+
+
+.add-to-cart {
   text-align: center !important;
- }
+}
 
 .product-overlay .add-to-cart:hover {
-  background:#fff;
+  background: #fff;
   color: #FE980F;
   text-align: center;
 }
 
 
-.product-overlay p{
+.product-overlay p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -168,7 +173,7 @@ h2.title {
 }
 
 
-.new h3{
+.new h3 {
   color: #F7F7F5;
   background-color: #FE980F;
   padding: 10px;
@@ -182,29 +187,55 @@ h2.title {
 .row3 {
   font-family: 'Roboto', sans-serif;
 }
-.form-group{
+
+.form-group {
   border: 1px solid #ddd;
   display: flex;
   border-radius: 5px;
   margin: 20px 0px;
   height: 40px;
 }
-.form-group button{
- 
- 
 
-width: 80%;
+.form-group button {
+
+
+
+  width: 80%;
 }
-.form-group button{
- width: 20%;
+
+.form-group button {
+  width: 20%;
   border: none;
 
-background-color: #e78300;
+  background-color: #e78300;
 }
-.form-group button i{
-  margin: 10px 16px;
- font-size: 20px !important;
- }
 
+.form-group button i {
+  margin: 10px 16px;
+  font-size: 20px !important;
+}
+
+.checkedd {
+  color: orange;
+  text-align: center !important;
+}
+
+.checked {
+  padding: 0px 3px;
+
+  color: orange;
+}
+
+
+.fix {
+  margin-bottom: 10px;
+  overflow: hidden;
+
+}
+.fix i{
+ 
+text-align: center;
+
+}
 
 

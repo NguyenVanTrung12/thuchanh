@@ -50,10 +50,10 @@ select {
     background-color: #54545c28;
 }
 
-.contact-form:hover {
+/* .contact-form:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transform: scale(1.2);
-}
+} */
 
 .contact-form input[type="submit"] {
     background-color: orange;
