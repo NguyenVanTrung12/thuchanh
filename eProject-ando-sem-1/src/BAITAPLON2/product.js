@@ -110,7 +110,7 @@ export default function Product({ addToCart, limit, title, cat }) {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="brands_products" style={{ marginTop: 300 }}>
+                            <div class="brands_products" style={{ marginTop: 30 }}>
                                 <h2>Gym accessories</h2>
                                 <div class="brands-name">
                                     <ul className="nav nav-pills nav-stacked">

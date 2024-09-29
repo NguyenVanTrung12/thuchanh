@@ -1,0 +1,51 @@
+.stilemap {
+    margin: 100px 0px;
+}
+
+.stilemap h1 {
+    text-align: left;
+    font-weight: 600;
+    padding: 20px 20px;
+}
+
+.stilemap p {
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.stilemap .navv {
+    padding: 10px 50px;
+    margin: 20px auto;
+}
+
+
+
+.stilemap .navv .nav-link {
+    border-bottom: 1px dashed black;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.stilemap .navv .nav-link a {
+    font-size: 20px;
+    color: black;
+   
+    text-decoration: none;
+
+}
+.stilemap .navv .nav-link a {
+    font-size: 20px;
+    color: black;
+
+    text-decoration: none;
+
+}
+
+.stilemap .navv .nav-link a:hover {
+
+    color: #ffa500;
+
+
+}

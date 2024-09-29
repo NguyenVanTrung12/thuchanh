@@ -32,14 +32,14 @@ const Contact = () => {
           <div className="col-sm-12 col-md-6 col-lg-6">
             <h2>Contact Information</h2>
             <p style={{ textTransform: 'uppercase', fontWeight: 'bold' }}>Prestige - Quality Create Success</p>
-            <p style={{ fontWeight: 'bold' }}>238 Hoang Quoc Viet - Cau Giay - Ha Noi - Viet Nam</p>
+            <p style={{ fontWeight: 'bold' }}>238 Hoang Quoc Viet,Bac Tu Liem district,Ha Noi,Viet Nam</p>
             <ul>
-              <li><span style={{ color: "black" }}>Phone: </span>(+84)34 307 5987</li>
-              <li><span style={{ color: "black" }}>Mail: </span>duongeptrai317@gmail.com</li>
+              <li><span style={{ color: "black" }}>Phone: </span>096.8276.996</li>
+              <li><span style={{ color: "black" }}>Mail: </span>daotao@bachkhoa-aptech.edu.vn</li>
               <li>
                 <span style={{ color: "black" }}>Fanpage: </span>
-                <a href="https://www.facebook.com/duongdeptraikhoaito?locale=vi_VN" target="_blank" rel="noopener noreferrer">
-                  https://www.facebook.com/duongdeptraikhoaito?locale=vi_VN
+                <a href="https://www.facebook.com/BachkhoaAptech236HoangQuocViet" target="_blank" rel="noopener noreferrer">
+                https://www.facebook.com/BachkhoaAptech236HoangQuocViet
                 </a>
               </li>
             </ul>

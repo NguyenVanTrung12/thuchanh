@@ -18,6 +18,7 @@ import ProductDetail from './BAITAPLON2/ProductDetail/ProductDetail';
 import Introduce from './BAITAPLON2/introduce';
 import Contact from './BAITAPLON2/contact';
 import ShoppingCart from './BAITAPLON2/ShoppingCart';
+import Sitemap from './BAITAPLON2/sitemap';
 
 
 
@@ -60,6 +61,7 @@ function App() {
         <Route path='/ProductDetails/:id' element={<ProductDetail/>}></Route>
         <Route path='/Introduce' element={<Introduce/>}></Route>
         <Route path='/Contact' element={<Contact/>}></Route>
+        <Route path='/Stiemap' element={<Sitemap/>}></Route>
         <Route path='/shoppingcart' element={<ShoppingCart cart={cart} />}></Route>
 
         
